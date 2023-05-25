@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="home-holder">
+    <a asp-controller="Home" asp-action="Index">
+        <img class="home-img" alt="Home" src="~/ikonice/home.png">
+    </a>
+</div>
+<h1>Index</h1>
+<p>Email: @ViewData["Email"]</p>
+<p>Ime: @ViewData["FirstName"]</p>
+<p>Prezime: @ViewData["LastName"]</p>
+<p>Spol: @ViewData["Gender"]</p>
+<p>Datum registracije: @ViewData["RegDate"]</p>

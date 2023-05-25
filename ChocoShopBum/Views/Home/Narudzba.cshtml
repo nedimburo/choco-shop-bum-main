@@ -1,0 +1,86 @@
+﻿
+@{
+    ViewData["Title"] = "Narudzba";
+}
+
+<div class="home-holder">
+    <a asp-controller="Home" asp-action="Index">
+        <img class="home-img" alt="Home" src="~/ikonice/home.png">
+    </a>
+</div>
+<div id="page-narudzba-container">
+    <div id="header-cart-container">
+        <h1>NARUDŽBA</h1>
+        <img class="cart" src="~/ikonice/cart.png" alt="Cart" onclick="previewCart()">
+    </div>
+
+    <div id="category-items-container">
+        <div id="category_holder">
+            <div class="category-items-subheader">
+                <p>Kategorije</p>
+            </div>
+            <div id="categories">
+                <input type="checkbox" id="c_1" onclick="selectSpecificCategory()">
+                <label for="c_1">Torte</label><br>
+                <input type="checkbox" id="c_2" onclick="selectSpecificCategory()">
+                <label for="c_2">Kolači</label><br>
+                <input type="checkbox" id="c_3" onclick="selectSpecificCategory()">
+                <label for="c_3">Praline</label><br>
+                <input type="checkbox" id="c_4" onclick="selectSpecificCategory()">
+                <label for="c_4">Specijalna ponuda</label>
+            </div>
+        </div>
+        <div id="itmes_holder">
+            <div class="category-items-subheader">
+                <p>Artikli</p>
+            </div>
+            <p class="item-tag">Odaberite koje artikle želite naručiti.</p>
+            <div id="items_listing">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ORDERING -->
+<div id="choose_item_window">
+    <div id="item_buy_container">
+        <div id="item-header-close-container">
+            <h2>Detalji o artiklu</h2>
+            <span class="close-button" onclick="closeWindow()">&times;</span>
+        </div>
+        <div id="item_details">
+        </div>
+        <div id="quantity-button-container">
+            <div id="quantity-holder">
+                <label for="kolicina">Količina:</label>
+                <input type="number" min="1" max="100" id="kolicina" value="1">
+            </div>
+            <button id="item-order-button" onclick="orderingItems()">Naruči</button>
+        </div>
+        <div id="narudzba-order-instructions">
+            <p>Za narudžbu ovog artikla naozvite nas putem kontakt brojeva.</p>
+        </div>
+    </div>
+</div>
+<!-- SHOPPING CART -->
+<div id="shopping_cart_window">
+    <div id="shopping_cart_container">
+        <div id="cart-header-close-container">
+            <h2>Vaša korpa:</h2>
+            <span class="close-button" onclick="closeCart()">&times;</span>
+        </div>
+        <div id="cart-info-box">
+            <p>Vaša korpa je prazna. Odaberite neki artikal kako bi mogli izvršiti transakciju.</p>
+        </div>
+        <div id="list_price_button_container">
+            <div id="article_list">
+            </div>
+            <div id="price_button_container">
+                <div id="order_price">
+                </div>
+                <button id="buy_cart" onclick="closeCart()">KUPI</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/js/main2.js"></script>
+

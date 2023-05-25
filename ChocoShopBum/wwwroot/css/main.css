@@ -1,0 +1,1496 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url('../pozadine/pozadina1.jpg');
+    animation: slidein 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;  
+}
+@keyframes slidein {
+    from {background-position: top;background-size:50vw; }
+    to {background-position: -100px 0px;background-size:50vw;}
+}
+h1{
+    color: #732D0A;
+    font-family: 'Acme', sans-serif;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+}
+label{
+    font-family: 'Roboto', sans-serif;
+}
+/* SIDEBAR */
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #ffe0b5; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s;
+}
+.sidenav a {
+    padding: 25px 8px 8px 15px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #111;
+    display: block;
+    transition: 0.3s;
+    font-weight: bold;
+}
+#sidenav_container>a:nth-child(7){
+    border-bottom: 2px solid white;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+    background-color: #732D0A;
+    border-bottom: 1px solid white;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 2.4rem;
+    margin-left: 50px;
+    padding-top: 8px;
+}
+.sidenav .closebtn:hover{
+    border-bottom: none;
+    background: none;
+    color: #111;
+}
+/* HEADER */
+#header{
+    width: 100%;
+    display: flex;
+    border-bottom: 5px solid #732D0A;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffe0b5;
+}
+.menu{
+    width: 25px;
+    height: 25px;
+}
+#header>h1{
+    font-size: 1.8rem;
+}
+.mini-logo{
+    width: 35px;
+    height: 35px;
+}
+/* POCETNA */
+#pocetna{
+    width: 90%;
+    min-height: 60vh;
+    margin: auto;
+    background-color: #ffe0b5;
+    display: flex;
+    flex-direction: column;
+}
+#pocetna-opis{
+    margin-top: 5%;
+}
+#pocetna>div{
+    flex-grow: 1;
+    min-height: 250px;
+}
+#pocetna-naslov-container{
+    width: 90%;
+    padding-top: 15%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#pocetna-naslov-container>h2{
+    font-size: 2.4rem;
+}
+#pocetna-naslov-container span{
+    font-size: 2.8rem;
+    color: #732D0A;
+}
+#pocetna-naslov-container>p{
+    font-style: italic;
+}
+/* SLIDESHOW */
+.slideshow-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+.slideshow-slika{
+    width: 100%;
+    height: 100%;
+}
+.slides {
+    display: none;
+}
+.text {
+    color: #f2f2f2;
+    font-size: 1.1rem;
+    padding: 8px 12px;
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    bottom: 8px;
+    width: 40%;
+    text-align: center;
+    background-color: #732D0A;
+    border: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+/* PONUDA */
+#ponuda{
+    width: 90%;
+    min-height: 50vh;
+    margin: auto;
+    background-color: #ffe0b5;
+}
+#ponuda-container{
+    display: grid;
+    width: 90%;
+    min-height: 300px;
+    margin: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+#ponuda h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#ponuda>p{
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+#ponuda-container>div{
+    border: 1px solid white;
+    position: relative;
+    text-align: center;
+}
+#ponuda-container>div>p{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 10px;
+    border-top: 1px solid black;
+    font-weight: bold;
+    background-color: #111111a1;
+    color: white;
+}
+.ponuda-slika{
+    width: 100%;
+    height: 100%;
+}
+#ponuda_4>p{
+    font-size: 0.8rem;
+}
+/* NARUDZBA */
+#narudzba{
+    width: 90%;
+    min-height: 65vh;
+    margin: auto;
+    background-color: #ffe0b5;
+}
+#narudzba h2{
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#narudzba-container{
+    width: 90%;
+    margin: auto;
+}
+#narudzba-text-1{
+    text-align: center;
+    font-style: italic;
+}
+#video-holder{
+    width: 90%;
+    margin: 10px auto;
+    border: 2px solid white;
+    line-height: 0;
+}
+#video-holder>video{
+    width: 100%;
+}
+#rating-review-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 15px;
+}
+#rating{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+#rating>p{
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.6rem;
+}
+#reviews{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+#reviews>p{
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.6rem;
+}
+.cube{
+    width: 80%;
+    height: 80%;
+    background-color: burlywood;
+    text-align: center;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: auto;
+}
+#narudzba-text-2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+#partner-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+#partner-1{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+#partner-2{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.partner-img{
+    width: 90%;
+    height: 90%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+#naruzdba-button-holder{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#naruzdba-button-holder a{
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid white;
+    text-align: center;
+    background-color: #732D0A;
+    color: white;
+}
+/* O NAMA */
+#o-nama{
+    width: 90%;
+    min-height: 70vh;
+    margin: auto;
+    background-color: #ffe0b5;
+}
+#o-nama h2{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#text-o-nama{
+    width: 90%;
+    margin: auto;
+    font-style: italic;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+#img-o-nama{
+    width: 60%;
+    height: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    line-height: 0;
+}
+#button-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+#button-container a{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid white;
+    background-color: #732D0A;
+    color: white;
+}
+.o-nama-picture{
+    width: 100%;
+    height: 100%;
+}
+/* LOKACIJA */
+#lokacija{
+    width: 90%;
+    min-height: 90vh;
+    margin: auto;
+    background-color: #ffe0b5;
+}
+#lokacija h2{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#lokacija p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#google-maps-frame{
+    width: 85%;
+    height: 300px;
+    margin: auto;
+    border: 2px solid black;
+}
+#lokacije-container{
+    width: 90%;
+    margin: auto;
+    padding: 10px 0px 0px 25px;
+    font-family: 'Roboto', sans-serif;
+}
+#lokacije-container>div{
+    margin-bottom: 10px;
+}
+#lokacije-container>div:last-child{
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+/* FOOTER */
+#footer{
+    width: 100%;
+    background: url('../pozadine/pozadinafooter.jpg');
+    background-size: cover;
+    border-top: 10px solid white;
+    padding: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+#footer div{
+    padding-bottom: 10px;
+}
+#footer a{
+    text-decoration: none;
+}
+.social-img{
+    width: 30px;
+    height: 30px;
+}
+#footer-item-1,
+#footer-item-3{
+    font-weight: bold;
+    text-align: center;
+}
+#footer-item-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer-logo{
+    margin: auto;
+    width: 150px;
+}
+#lokacije-container>div>ul>li>u{
+    font-size: 0.9rem;
+}
+.logo-bum{
+    width: 100%;
+    height: 100%;
+}
+/* VISE O NAMA */
+#more-about-container{
+    width: 85vw;
+    max-width: 750px;
+    min-height: 85vh;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 2%;
+    background-color: #ffe0b5;
+}
+.more-about-subheader{
+    padding: 5px;
+    font-style: italic;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+#more-about-container h1,
+#more-about-container h2{
+    text-align: center;
+}
+.more-about-text{
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#owners-container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#owners-container>p{
+    margin-bottom: 10px;
+    font-weight: bold;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5%;
+}
+.owners{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    flex-basis: 0;
+}
+.owner-img{
+    width: 100%;
+    height: 100%;
+}
+#more-about-logo{
+    width: 120px;
+    margin: 20px auto;
+}
+/* KONTAKT FORMA */
+.home-holder{
+    width: 45px;
+    height: 45px;
+    background-color: #ffe0b5;
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 5px;
+    margin: 10px 0px 15px 15px;
+}
+.home-img{
+    width: 100%;
+    height: 100%;
+}
+#contact-container{
+    width: 85vw;
+    max-width: 475px;
+    min-height: 55vh;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 2%;
+    background-color: #ffe0b5;
+}
+#contact-container>h1{
+    text-align: center;
+    padding-bottom: 5px;
+}
+#contact-container>p{
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    margin-bottom: 15px;
+}
+#contact-container>form{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+#contact-button-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    margin-top: 15px;
+}
+#contact-button-container>button{
+    padding: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    background-color: #732D0A;
+    color: white;
+}
+#contact-container textarea{
+    width: 250px;
+    height: 150px;
+}
+/* LOGIN */
+#login-holder{
+    width: 85vw;
+    max-width: 400px;
+    min-height: 45vh;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 2%;
+    background-color: #ffe0b5;
+}
+#login-holder h1{
+    text-align: center;
+}
+.login-text,
+.register-text{
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+#login-holder>form,
+#register-holder>form{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#login-holder>form>input,
+#register-holder>form>input{
+    margin-bottom: 15px;
+    padding: 2px;
+}
+#login-button,
+#register-button{
+    padding: 12px;
+    font-weight: bold;
+    margin: 15px 0px;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    color: white;
+    background-color: #732D0A;
+}
+.login-info,
+.register-info{
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.login-small-container,
+.register-small-container{
+    text-align: center;
+}
+.login-register-button,
+.register-login-button{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/* REGISTER */
+#register-holder{
+    width: 85vw;
+    max-width: 500px;
+    min-height: 65vh;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 2%;
+    background-color: #ffe0b5;
+}
+#register-holder h1{
+    text-align: center;
+}
+#register-holder select{
+    padding: 2px;
+    font-weight: bold;
+}
+/* NARUDZBA PAGE */
+#page-narudzba-container{
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #ffe0b5;
+    min-height: 80vh;
+    margin: auto;
+}
+#header-cart-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.cart{
+    width: 35px;
+    height: 35px;
+}
+#category-items-container{
+    width: 95%;
+    margin: auto;
+}
+.category-items-subheader{
+    padding: 8px 0px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+#categories{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+#categories input{
+    width: 18px;
+    height: 18px;
+}
+#categories label{
+    font-size: 1.2rem;
+}
+.item-tag{
+    font-style: italic;
+}
+#items_listing{
+    max-height: 370px;
+    overflow: auto;
+}
+/* NARUDZBA ODABIR WINDOW */
+#choose_item_window{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    display: none;
+    background-color: #11111171;
+    top: 0px;
+}
+#item_buy_container{
+    margin-top: 30%;
+    width: 100vw;
+    max-width: 430px;
+    height: 350px;
+    min-height: 350px;
+    background-color: white;
+}
+#item-header-close-container{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+.close-button{
+    font-size: 2.5rem;
+}
+#item_details{
+    margin: 5px auto;
+    width: 95%;
+    height: 175px;
+    min-height: 175px;
+}
+#item-order-box{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 175px 1fr;
+    grid-template-rows: 120px 35px;
+}
+.item_details_img{
+    width: 175px;
+    height: 120px;
+    border: 2px solid black;
+}
+.item-img{
+    width: 100%;
+    height: 100%;
+}
+.item_details_name{
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.item_details_price_tag{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.item_details_price{
+    text-align: right;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#quantity-button-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#quantity-holder>label{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+#quantity-holder>input{
+    padding: 6px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgray;
+}
+#item-order-button{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: 2px solid grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 3px;
+}
+#narudzba-order-instructions{
+    width: 90%;
+    margin: auto;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: bold;
+    display: none;
+}
+/* FOR SHOPPING CART */
+#shopping_cart_window{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    display: none;
+    background-color: #11111171;
+    top: 0px;
+}
+#shopping_cart_container{
+    margin-top: 30%;
+    width: 100vw;
+    max-width: 430px;
+    height: 400px;
+    min-height: 400px;
+    background-color: white;
+}
+#cart-header-close-container{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+#cart-info-box{
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    display: none;
+    margin-top: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+#list_price_button_container{
+    width: 90%;
+    margin: auto;
+    min-height: 150px;
+    max-height: 325px;
+    display: none;
+}
+#article_list{
+    width: 100%;
+    padding: 5px;
+    min-height: 60px;
+    max-height: 250px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+#price_button_container{
+    display: flex;
+    justify-content: space-between;
+}
+.item-cart-listing{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dotted gray;
+}
+.item-cart-listing>div{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+#order_price{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+#buy_cart{
+    padding: 8px;
+    background-color: green;
+    color: white;
+    border: 2px solid grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 3px;
+}
+/* JAVASCRIPT CSS*/
+/* PONUDA LIST */
+.ponuda-list-item{
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    border: 1px solid black;
+    background-color: burlywood;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.ponuda-list-img{
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+.ponuda-list-name,
+.ponuda-list-price{
+    font-weight: bold;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.ponuda-list-name{
+    font-family: 'Acme', sans-serif;
+}
+.ponuda-list-picture{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 260px){
+    html{
+        font-size: 10px;
+    }
+}
+/* SMALL MOBILE*/
+@media only screen and (min-width: 260px) and (max-width: 320px){
+    html{
+        font-size: 12px;
+    }
+    .sidenav a {
+        padding: 25px 8px 8px 6px;
+        text-decoration: none;
+        font-size: 1rem;
+        color: #111;
+        display: block;
+        transition: 0.3s;
+        font-weight: bold;
+    }
+    #header{
+        align-items: center;
+    }
+    #ponuda{
+        min-height: 40vh;
+    }
+    #narudzba{
+        min-height: 56vh;
+    }
+    #o-nama{
+        min-height: 55vh;
+    }
+    #lokacija{
+        min-height: 78vh;
+    }
+    #contact-container textarea{
+        width: 200px;
+        height: 125px;
+    }
+    #footer-logo{
+        width: 120px;
+    }
+    .cart{
+        width: 28px;
+        height: 28px;
+    }
+    #item_buy_container{
+        height: 300px;
+        min-height: 300px;
+    }
+}
+/* LARGE MOBILE - DEFAULT*/
+@media only screen and (min-width: 321px) and (max-width: 424px){
+
+}
+/* TABLET */
+@media only screen and (min-width: 425px) and (max-width: 768px){
+    html{
+        font-size: 18px;
+    }
+    @keyframes slidein {
+        from {background-position: top;background-size:30vw; }
+        to {background-position: -100px 0px;background-size:30vw;}
+    }
+    .menu{
+        width: 30px;
+        height: 30px;
+    }
+    .mini-logo{
+        width: 37.5px;
+        height: 37.5px;
+    }
+    #pocetna-naslov{
+        height: 350px;
+    }
+    .slideshow-container{
+        overflow: hidden;
+    }
+    #pocetna-slika{
+        height: 400px;
+    }
+    .slideshow-slika{
+        height: 400px;
+    }
+    #ponuda-container{
+        max-width: 450px;
+    }
+    #ponuda-container>div{
+        width: 90%;
+        height: 90%;
+        margin: auto;
+    }
+    #ponuda_list_container{
+        max-width: 475px;
+        margin: auto;
+    }
+    #lokacije-container{
+        width: 300px;
+        margin: auto;
+        padding: 10px 0px 0px 25px;  
+    }
+    #login-holder>form>input,
+    #register-holder>form>input{
+        margin-bottom: 15px;
+        padding: 3px;
+    }
+    #register-holder select{
+        padding: 3px;
+    }
+    #contact-container input{
+        padding: 4px;
+    }
+    #contact-container textarea{
+        width: 320px;
+        height: 150px;
+    }
+    .social-img{
+        width: 45px;
+        height: 45px;
+    }
+    #page-narudzba-container{
+        width: 95vw;
+        border-radius: 15px;
+    }
+    .cart{
+    width: 40px;
+    height: 40px;
+    }
+    #items_listing{
+        max-width: 475px;
+    }
+    #item_buy_container{
+        margin: 150px auto;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    #shopping_cart_container{
+        margin: 150px auto;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    #cart-info-box{
+        margin-top: 30px;
+    }
+}
+/* LAPTOP */
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    html{
+        font-size: 20px;
+    }
+    @keyframes slidein {
+        from {background-position: top;background-size:25vw; }
+        to {background-position: -100px 0px;background-size:25vw;}
+    }
+    .menu{
+        width: 32px;
+        height: 32px;
+    }
+    .mini-logo{
+        width: 40px;
+        height: 40px;
+    }
+    #pocetna{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        height: 350px;
+        min-height: 350px;
+    }
+    .slideshow-container{
+        overflow: hidden;
+    }
+    .slideshow-slika{
+        height: 350px;
+    }
+    #ponuda{
+        min-height: 38vh;
+    }
+    #ponuda h2{
+        padding-top: 30px;
+    }
+    #ponuda-container{
+        display: flex;
+        min-height: 175px;
+        justify-content: space-between;
+    }
+    #ponuda-container>div{
+        width: 24%;
+        border: 1px solid white;
+        position: relative;
+        text-align: center;
+    }
+    #ponuda-container>div>p{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        padding: 10px;
+        border-top: 1px solid black;
+        font-weight: bold;
+        background-color: #111111a1;
+        color: white;
+    }
+    #ponuda_list_container{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ponuda-list-item{
+        width: 150px;
+        height: 195px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .ponuda-list-img{
+        width: 100%;
+        height: 100px;
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    #narudzba-container{
+        max-width: 700px;
+    }
+    #rating-review-container{
+        width: 550px;
+    }
+    .cube{
+        width: 175px;
+        height: 175px;
+        border-radius: 50%;
+    }
+    #partner-container{
+        width: 450px;
+    }
+    .partner-img{
+        width: 90%;
+        height: 90%;
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+    #naruzdba-button-holder{
+        width: 40%;
+    }
+    #o-nama h2{
+        padding-top: 30px;
+    }
+    #lokacija h2{
+        padding-top: 30px;
+    }
+    #google-maps-frame{
+        height: 400px;
+    }
+    #button-container{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    #button-container a{
+        width: 45%;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        border: 2px solid white;
+        background-color: #732D0A;
+        color: white;
+    }
+    #lokacija{
+        min-height: 70vh;
+    }
+    #lokacije-container{
+        width: 630px;
+        display: flex;
+        margin: auto;
+    }
+    #lokacije-container>div{
+        flex-grow: 1;
+        flex-basis: 0;
+        font-size: 0.8rem;
+    }
+    #lokacije-container>div>ul>li>u{
+        font-size: 0.6rem;
+    }
+    #footer-container{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    #footer-item-2{
+        order: 1;
+        align-items: center;
+    }
+    .social-img{
+        width: 40px;
+        height: 40px;
+    }
+    #footer-item-2 a{
+        padding: 5px 10px 5px 5px;
+    }
+    #login-holder>form>input,
+    #register-holder>form>input{
+        margin-bottom: 15px;
+        padding: 4px;
+    }
+    #register-holder select{
+        padding: 4px;
+    }
+    #contact-container input{
+        padding: 4px;
+    }
+    #contact-container textarea{
+        width: 350px;
+        height: 150px;
+    }
+    #login-button:hover,
+    #register-button:hover,
+    #contact-button-container>button:hover,
+    #naruzdba-button-holder>a:hover,
+    #button-container>a:hover{
+        color: black;
+        background-color: white;
+        border-color: black;
+        transition: 300ms;
+    }
+    #page-narudzba-container{
+        width: 93vw;
+        border-radius: 15px;
+    }
+    .cart{
+    width: 44px;
+    height: 44px;
+    }
+    #category-items-container{
+        display: grid;
+        grid-template-columns: 30% 1fr;
+    }
+    #categories label{
+        font-size: 1.05rem;
+    }
+    #items_listing{
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 475px;
+    }
+    #item_buy_container{
+        margin: 150px auto;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    #shopping_cart_container{
+        margin: 150px auto;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    #cart-info-box{
+        margin-top: 35px;
+        font-size: 0.9rem;
+    }
+}
+/* DESKTOP */
+@media only screen and (min-width: 1025px){
+    html{
+        font-size: 22px;
+    }
+    @keyframes slidein {
+        from {background-position: top;background-size:17vw; }
+        to {background-position: -100px 0px;background-size:17vw;}
+    }
+    .menu{
+        width: 35px;
+        height: 35px;
+    }
+    .mini-logo{
+        width: 45px;
+        height: 45px;
+    }
+    #pocetna{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        height: 450px;
+        min-height: 450px;
+    }
+    .slideshow-container{
+        overflow: hidden;
+    }
+    .slideshow-slika{
+        height: 450px;
+    }
+    #ponuda{
+        min-height: 40vh;
+    }
+    #ponuda h2{
+        padding-top: 25px;
+    }
+    #ponuda-container{
+        display: flex;
+        min-height: 175px;
+        justify-content: space-between;
+    }
+    #ponuda-container>div{
+        width: 24%;
+        border: 1px solid white;
+        position: relative;
+        text-align: center;
+    }
+    #ponuda-container>div>p{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        padding: 10px;
+        border-top: 1px solid black;
+        font-weight: bold;
+        background-color: #111111a1;
+        color: white;
+    }
+    #ponuda_list_container{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;  
+    }
+    .ponuda-list-item{
+        width: 150px;
+        height: 195px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .ponuda-list-img{
+        width: 100%;
+        height: 100px;
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    #ponuda-container div:hover{
+        background-color: black;
+    }
+    #button-container{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    #button-container a{
+        width: 45%;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        border: 2px solid white;
+        background-color: #732D0A;
+        color: white;
+    }
+    #rating-review-container{
+        width: 650px;
+    }
+    .cube{
+        width: 225px;
+        height: 225px;
+        border-radius: 50%;
+    }
+    #partner-container{
+        width: 450px;
+    }
+    .partner-img{
+        width: 90%;
+        height: 90%;
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+    #naruzdba-button-holder{
+        width: 50%;
+    }
+    #o-nama h2{
+        padding-top: 30px;
+    }
+    #lokacija h2{
+        padding-top: 30px;
+    }
+    #google-maps-frame{
+        height: 400px;
+    }
+    #lokacija{
+        min-height: 75vh;
+    }
+    #lokacije-container{
+        width: 830px;
+        display: flex;
+        margin: auto;
+    }
+    #lokacije-container>div{
+        flex-grow: 1;
+        flex-basis: 0;
+        font-size: 0.8rem;
+    }
+    #lokacije-container>div>ul>li>u{
+        font-size: 0.7rem;
+    }
+    #footer-container{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    #footer-item-2{
+        order: 1;
+        align-items: center;
+    }
+    .social-img{
+        width: 45px;
+        height: 45px;
+    }
+    #footer-item-2 a{
+        padding: 5px 10px 5px 5px;
+    }
+    #login-holder>form>input,
+    #register-holder>form>input{
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+    #register-holder select{
+        padding: 5px;
+    }
+    .register-small-container{
+        margin-bottom: 20px;
+    }
+    #contact-container input{
+        padding: 6px;
+    }
+    #contact-container textarea{
+        width: 400px;
+        height: 180px;
+    }
+    #pocetna,
+    #ponuda,
+    #narudzba,
+    #o-nama,
+    #lokacija{
+        max-width: 1080px;
+    }
+    #login-button:hover,
+    #register-button:hover,
+    #contact-button-container>button:hover,
+    #naruzdba-button-holder>a:hover,
+    #button-container>a:hover{
+        color: black;
+        background-color: white;
+        border-color: black;
+        transition: 300ms;
+    }
+    #page-narudzba-container{
+        width: 90vw;
+        max-width: 1350px;
+        border-radius: 15px;
+    }
+    .cart{
+    width: 44px;
+    height: 44px;
+    }
+    #category-items-container{
+        display: grid;
+        grid-template-columns: 30% 1fr;
+    }
+    #items_listing{
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 475px;
+    }
+    #item_buy_container{
+        margin: 150px auto;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    #shopping_cart_container{
+        margin: 150px auto;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    #cart-info-box{
+        margin-top: 25px;
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,53 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="home-holder">
+    <a asp-controller="Home" asp-action="Index">
+        <img class="home-img" alt="Home" src="~/ikonice/home.png">
+    </a>
+</div>
+
+<div id="register-holder">
+    <h1>REGISTRACIJA</h1>
+    <p class="register-text">Napravite svoj korisnički račun.</p>
+    <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+        @*<label asp-for="Input.Username">Korisničko ime:</label>
+        <input asp-for="Input.Username" autocomplete="user-name" aria-required="true" /><br />*@
+
+        <label asp-for="Input.Email">E-Mail:</label>
+        <input asp-for="Input.Email" autocomplete="username" aria-required="true" /><br />
+
+        <label asp-for="Input.Password">Šifra:</label>
+        <input asp-for="Input.Password" autocomplete="new-password" aria-required="true" /><br />
+
+        <label asp-for="Input.ConfirmPassword">Potvrdite šifru:</label>
+        <input asp-for="Input.ConfirmPassword" autocomplete="new-password" aria-required="true" /><br />
+
+        <label asp-for="Input.FirstName">Ime:</label>
+        <input asp-for="Input.FirstName" autocomplete="first-name" aria-required="true" /><br />
+
+        <label asp-for="Input.LastName">Prezime:</label>
+        <input asp-for="Input.LastName" autocomplete="last-name" aria-required="true" /><br />
+
+        <label>Spol:</label>
+        <select asp-for="Input.Gender">
+            <option value=0 selected="selected">Muški</option>
+            <option value=1>Ženski</option>
+        </select><br />
+
+        <div class="register-small-container">
+            <button id="register-button" type="submit">Registruj se</button>
+        </div>
+    </form>
+    <p class="register-info">Imate korisnički račun?</p>
+    <div class="register-small-container">
+        <a class="register-login-button" href="/Identity/Account/Login">PRIJAVI SE</a>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

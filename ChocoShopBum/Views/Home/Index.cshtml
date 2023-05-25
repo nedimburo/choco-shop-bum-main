@@ -1,0 +1,208 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- HEADER -->
+    <div id="header">
+        <div id="sidenav_container" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#header">POČETNA</a>
+            <a href="#ponuda">PONUDA</a>
+            <a href="#narudzba">NARUDŽBA</a>
+            <a href="#o-nama">O NAMA</a>
+            <a href="#lokacija">LOKACIJA</a>
+            <a href="#footer">KONTAKT</a>
+            <partial name="~/Views/Shared/_LoginPartial.cshtml" />
+        </div>
+        <img class="menu" alt="Menu" src="~/ikonice/menu.png" onclick="openNav()">
+        <h1>Choco shop BUM</h1>
+        <img class="mini-logo" alt="Mali logo" src="~/ikonice/logoBUM.png">
+    </div>
+    <!-- POCETNA -->
+    <div id="pocetna">
+        <div id="pocetna-naslov">
+            <div id="pocetna-naslov-container">
+                <h2>Choco shop<br><span>BUM</span></h2>
+                <p id="pocetna-opis">Najbolje poslastice u gradu u Vašem Choco Shop-u BUM. Čekamo Vas!</p>
+            </div>
+        </div>
+        <div id="pocetna-slika">
+            <!-- SLIDESHOW-->
+            <div class="slideshow-container">
+                <div class="slides fade">
+                    <img class="slideshow-slika" src="~/pocetna_ponuda/slideshow1_1.jpg">
+                    <div class="text">Torte</div>
+                </div>
+                
+                <div class="slides fade">
+                    <img class="slideshow-slika" src="~/pocetna_ponuda/slideshow2_2.jpg">
+                    <div class="text">Kolači</div>
+                </div>
+                
+                <div class="slides fade">
+                    <img class="slideshow-slika" src="~/pocetna_ponuda/slideshow3_3.jpg">
+                    <div class="text">Praline</div>
+                </div>
+                <div class="slides fade">
+                    <img class="slideshow-slika" src="~/pocetna_ponuda/slideshow4_4.jpg">
+                    <div class="text">Specijalna ponuda</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PONUDA -->
+    <div id="ponuda">
+        <h2>PONUDA</h2>
+        <p>Kliknite na jednu od kategorija za listu proizvoda!</p>
+        <div id="ponuda-container">
+            <div id="ponuda_1" onclick="getPonudaList(2)">
+                <img class="ponuda-slika" src="pocetna_ponuda/torte1.jpg">
+                <p class="tag">Torte</p>
+            </div>
+            <div id="ponuda_2" onclick="getPonudaList(1)">
+                <img class="ponuda-slika" src="pocetna_ponuda/kolaci1.jpg">
+                <p class="tag">Kolači</p>
+            </div>
+            <div id="ponuda_3" onclick="getPonudaList(3)">
+                <img class="ponuda-slika" src="pocetna_ponuda/praline1.jpg">
+                <p class="tag">Praline</p>
+            </div>
+            <div id="ponuda_4" onclick="getPonudaList(4)">
+                <img class="ponuda-slika" src="pocetna_ponuda/specijalna1.jpg">
+                <p class="tag">Specijalna ponuda</p>
+            </div>
+        </div>
+        <div id="ponuda_list_container">
+
+        </div>
+    </div>
+    <!-- NARUDZBA -->
+    <div id="narudzba">
+        <h2>NARUDŽBA</h2>
+        <div id="narudzba-container">
+            <p id="narudzba-text-1">Naručite bilo koju od naših poslastica sa besplatnom dostavom!</p>
+            <div id="video-holder">
+                <video muted autoplay loop id="video_1">
+                    <source src="~/videos/videomain.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div id="rating-review-container">
+                <div id="rating">
+                    <div class="cube">4.7</div>
+                    <p>OCJENA</p>
+                </div>
+                <div id="reviews">
+                    <div class="cube">352</div>
+                    <p>RECENZIJA</p>
+                </div>
+            </div>
+            <p id="narudzba-text-2">Partneri dostave:</p>
+            <div id="partner-container">
+                <div id="partner-1">
+                    <img class="partner-img" alt="Partner 1" src="ikonice/glovo.png">
+                </div>
+                <div id="partner-2">
+                    <img class="partner-img" alt="Partner 2" src="ikonice/korpa.png">
+                </div>
+            </div>
+        </div>
+        <div id="naruzdba-button-holder">
+            <a asp-controller="Home" asp-action="Narudzba">NARUČI</a>
+        </div>
+    </div>
+    <!-- O NAMA -->
+    <div id="o-nama">
+        <h2>O NAMA</h2>
+        <div id="o-nama-container">
+            <div id="text-o-nama">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Cras eget lacinia mauris, ut feugiat urna. 
+                Phasellus sit amet lorem augue. 
+                Fusce id elit eu risus venenatis elementum posuere nec nisi. 
+                Integer feugiat risus nec eros viverra lacinia. 
+                Integer mattis risus id lorem lacinia, ac tempus velit volutpat. 
+                Donec id dui aliquam, convallis ligula eget, pellentesque felis. 
+                Proin sit amet arcu at turpis consectetur tempor. 
+                Suspendisse feugiat libero eget lorem sollicitudin, 
+                eget lacinia orci blandit. Etiam vel leo lectus. 
+                Etiam ex odio, molestie non scelerisque vel, blandit id arcu.
+            </div>
+            <div id="img-o-nama">
+                <img class="o-nama-picture" alt="O nama" src="slike/poslovnicaprimjer.jpg">
+            </div>
+            <div id="button-container">
+                <a asp-controller="Home" asp-action="MoreAbout">Više o nama</a>
+                <a asp-controller="Home" asp-action="ContactForm">Pošaljite poruku</a>
+            </div>
+        </div>
+    </div>
+    <!-- LOKACIJA -->
+    <div id="lokacija">
+        <h2>Gdje nas možete pronaći?</h2>
+        <p>Choco shop BUM ima nekoliko poslovnica širom Bosne i Hercegovine!</p>
+        <div id="google-maps-frame">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d850.4141783796774!2d17.91284270364071!3d44.19798420501593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ee23fa220fafd%3A0xd0c13a7ebb1b4ca!2sFontana!5e0!3m2!1sen!2sba!4v1679606189699!5m2!1sen!2sba" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="lokacije-container">
+            <div id="lokacija-1">
+                <strong>Zenica</strong>
+                <ul>
+                    <li>Talića brdo 3</li>
+                    <li>72000 Zenica</li>
+                    <li>Bosna i Hercegovina</li>
+                    <li>032-111-222</li>
+                    <li><u>chocoshopbum.zenica@gmail.com</u></li>
+                </ul>
+            </div>
+            <div id="lokacija-2">
+                <strong>Sarajevo</strong>
+                <ul>
+                    <li>Safeta Zajke 8</li>
+                    <li>71000 Sarajevo</li>
+                    <li>Bosna i Hercegovina</li>
+                    <li>033-333-444</li>
+                    <li><u>chocoshopbum.sarajevo@gmail.com</u></li>
+                </ul>
+            </div>
+            <div id="lokacija-3">
+                <strong>Tuzla</strong>
+                <ul>
+                    <li>Maršala Tita 43b</li>
+                    <li>75000 Tuzla</li>
+                    <li>Bosna i Hercegovina</li>
+                    <li>035-555-666</li>
+                    <li><u>chocoshopbum.tuzla@gmail.com</u></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div id="footer">
+        <div id="footer-container">
+            <div id="footer-item-1">
+                <span>Talića brdo 3<br>
+                72000 Zenica<br>
+                Bosna i Hercegovina<br></span>
+            </div>
+            <div id="footer-item-2">
+                <a href="https://www.instagram.com/">
+                    <img class="social-img" alt="Instagram" src="ikonice/instagram.svg">
+                </a>
+                <a href="https://www.facebook.com">
+                    <img class="social-img" alt="Facebook" src="ikonice/facebook.svg">
+                </a>
+                <a href="https://www.linkedin.com">
+                    <img class="social-img" alt="LinkedIn" src="ikonice/linkedIn.svg">
+                </a>
+            </div>
+            <div id="footer-item-3">
+                <span>&copy;2023<br>
+                Choco shop BUM<br>
+                wwww.chocoshopbum.com<br></span>
+            </div>
+        </div>
+        <div id="footer-logo">
+            <img class="logo-bum" src="ikonice/logoBUM.png" alt="Logo BUM">
+        </div>
+    </div>
+<script src="~/js/main.js"></script>
