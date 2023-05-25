@@ -1,7 +1,7 @@
 # Choco Shop BUM <br />
 People working on project:<br />
-**Nedim Buro - [Profile](github.com/nedimburo)**<br />
-**Muhamed Ahmetspahic - [Profile](github.com/MuhamedAhmetspahic)**<br />
+**Nedim Buro - github.com/nedimburo**<br />
+**Muhamed Ahmetspahic - github.com/MuhamedAhmetspahic**<br />
 # ENG: Web Design Project<br />
 Choco shop BUM is an imaginary website for ordering cakes and sweets. Images, video, fonts are downloaded from the Internet, while the image of the Choco Shop BUM logo is original. Website features a Database which supports User registration and login.
 # BA: Web Dizajn Projekat<br />
