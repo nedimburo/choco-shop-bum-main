@@ -10429,11 +10429,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\ChocoShopBum.csproj",
+      "projectUniqueName": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\ChocoShopBum.csproj",
       "projectName": "ChocoShopBum",
-      "projectPath": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\ChocoShopBum.csproj",
+      "projectPath": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\ChocoShopBum.csproj",
       "packagesPath": "C:\\Users\\IT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\obj\\",
+      "outputPath": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\IT\\AppData\\Roaming\\NuGet\\NuGet.Config",

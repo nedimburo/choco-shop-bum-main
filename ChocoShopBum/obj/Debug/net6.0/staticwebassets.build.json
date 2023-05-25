@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ar77FQE2j4nQumbYzeN5KTnI3av3UApX7nDCUjntsEo=",
+  "Hash": "byp2lO39SeEkn8vAQVNDia+BSl71PzWq0sJtCA7Zjic=",
   "Source": "ChocoShopBum",
   "BasePath": "_content/ChocoShopBum",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ChocoShopBum\\wwwroot",
       "Source": "ChocoShopBum",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\IT\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.16\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ChocoShopBum.styles.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ChocoShopBum.styles.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "ChocoShopBum.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ChocoShopBum.styles.css"
+      "OriginalItemSpec": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ChocoShopBum.styles.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ChocoShopBum.bundle.scp.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ChocoShopBum.bundle.scp.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "ChocoShopBum.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ChocoShopBum.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ChocoShopBum.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\css\\main.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\css\\main.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "css/main.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\main.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\css\\site.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\favicon.ico",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\ikonice\\avatartest.png",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\ikonice\\avatartest.png",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "ikonice/avatartest.png",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\ikonice\\avatartest.png"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\ikonice\\cart.png",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\ikonice\\cart.png",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "ikonice/cart.png",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\ikonice\\cart.png"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\ikonice\\facebook.svg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\ikonice\\facebook.svg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "ikonice/facebook.svg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\ikonice\\facebook.svg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\ikonice\\glovo.png",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\ikonice\\glovo.png",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "ikonice/glovo.png",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\ikonice\\glovo.png"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\ikonice\\home.png",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\ikonice\\home.png",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "ikonice/home.png",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\ikonice\\home.png"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\ikonice\\ikonica.png",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\ikonice\\ikonica.png",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "ikonice/ikonica.png",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\ikonice\\ikonica.png"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\ikonice\\instagram.svg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\ikonice\\instagram.svg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "ikonice/instagram.svg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\ikonice\\instagram.svg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\ikonice\\korpa.png",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\ikonice\\korpa.png",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "ikonice/korpa.png",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\ikonice\\korpa.png"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\ikonice\\linkedIn.svg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\ikonice\\linkedIn.svg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "ikonice/linkedIn.svg",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\ikonice\\linkedIn.svg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\ikonice\\logoBUM.png",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\ikonice\\logoBUM.png",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "ikonice/logoBUM.png",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\ikonice\\logoBUM.png"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\ikonice\\menu.png",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\ikonice\\menu.png",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "ikonice/menu.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\ikonice\\menu.png"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\js\\main.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\js\\main.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\js\\main2.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\js\\main2.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "js/main2.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main2.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\js\\site.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\kolaci\\kolaci0.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\kolaci\\kolaci0.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "kolaci/kolaci0.jpg",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\kolaci\\kolaci0.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\kolaci\\kolaci1.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\kolaci\\kolaci1.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "kolaci/kolaci1.jpg",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\kolaci\\kolaci1.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\kolaci\\kolaci2.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\kolaci\\kolaci2.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "kolaci/kolaci2.jpg",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\kolaci\\kolaci2.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\kolaci\\kolaci3.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\kolaci\\kolaci3.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "kolaci/kolaci3.jpg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\kolaci\\kolaci3.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\kolaci\\kolaci4.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\kolaci\\kolaci4.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "kolaci/kolaci4.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\kolaci\\kolaci4.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\kolaci\\kolaci5.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\kolaci\\kolaci5.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "kolaci/kolaci5.jpg",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\kolaci\\kolaci5.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\kolaci\\kolaci6.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\kolaci\\kolaci6.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "kolaci/kolaci6.jpg",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\kolaci\\kolaci6.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\kolaci\\kolaci7.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\kolaci\\kolaci7.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "kolaci/kolaci7.jpg",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\kolaci\\kolaci7.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\kolaci\\kolaci8.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\kolaci\\kolaci8.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "kolaci/kolaci8.jpg",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\kolaci\\kolaci8.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\pocetna_ponuda\\kolaci1.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\pocetna_ponuda\\kolaci1.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "pocetna_ponuda/kolaci1.jpg",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\pocetna_ponuda\\kolaci1.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\pocetna_ponuda\\praline1.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\pocetna_ponuda\\praline1.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "pocetna_ponuda/praline1.jpg",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\pocetna_ponuda\\praline1.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\pocetna_ponuda\\slideshow1_1.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\pocetna_ponuda\\slideshow1_1.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "pocetna_ponuda/slideshow1_1.jpg",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\pocetna_ponuda\\slideshow1_1.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\pocetna_ponuda\\slideshow2_2.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\pocetna_ponuda\\slideshow2_2.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "pocetna_ponuda/slideshow2_2.jpg",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\pocetna_ponuda\\slideshow2_2.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\pocetna_ponuda\\slideshow3_3.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\pocetna_ponuda\\slideshow3_3.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "pocetna_ponuda/slideshow3_3.jpg",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\pocetna_ponuda\\slideshow3_3.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\pocetna_ponuda\\slideshow4_4.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\pocetna_ponuda\\slideshow4_4.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "pocetna_ponuda/slideshow4_4.jpg",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\pocetna_ponuda\\slideshow4_4.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\pocetna_ponuda\\specijalna1.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\pocetna_ponuda\\specijalna1.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "pocetna_ponuda/specijalna1.jpg",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\pocetna_ponuda\\specijalna1.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\pocetna_ponuda\\torte1.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\pocetna_ponuda\\torte1.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "pocetna_ponuda/torte1.jpg",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\pocetna_ponuda\\torte1.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\pozadine\\pozadina1.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\pozadine\\pozadina1.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "pozadine/pozadina1.jpg",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\pozadine\\pozadina1.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\pozadine\\pozadinafooter.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\pozadine\\pozadinafooter.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "pozadine/pozadinafooter.jpg",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\pozadine\\pozadinafooter.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\pozadine\\slideshow1.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\pozadine\\slideshow1.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "pozadine/slideshow1.jpg",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\pozadine\\slideshow1.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\pozadine\\slideshow2.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\pozadine\\slideshow2.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "pozadine/slideshow2.jpg",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\pozadine\\slideshow2.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\pozadine\\slideshow3.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\pozadine\\slideshow3.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "pozadine/slideshow3.jpg",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\pozadine\\slideshow3.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\pozadine\\slideshow4.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\pozadine\\slideshow4.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "pozadine/slideshow4.jpg",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\pozadine\\slideshow4.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\praline\\praline0.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\praline\\praline0.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "praline/praline0.jpg",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\praline\\praline0.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\praline\\praline1.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\praline\\praline1.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "praline/praline1.jpg",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\praline\\praline1.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\praline\\praline2.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\praline\\praline2.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "praline/praline2.jpg",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\praline\\praline2.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\slike\\poslovnicaprimjer.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\slike\\poslovnicaprimjer.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "slike/poslovnicaprimjer.jpg",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\slike\\poslovnicaprimjer.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\specijalna_ponuda\\specijalna0.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\specijalna_ponuda\\specijalna0.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "specijalna_ponuda/specijalna0.jpg",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\specijalna_ponuda\\specijalna0.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\specijalna_ponuda\\specijalna1.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\specijalna_ponuda\\specijalna1.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "specijalna_ponuda/specijalna1.jpg",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\specijalna_ponuda\\specijalna1.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\specijalna_ponuda\\specijalna2.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\specijalna_ponuda\\specijalna2.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "specijalna_ponuda/specijalna2.jpg",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\specijalna_ponuda\\specijalna2.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\specijalna_ponuda\\specijalna3.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\specijalna_ponuda\\specijalna3.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "specijalna_ponuda/specijalna3.jpg",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\specijalna_ponuda\\specijalna3.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\specijalna_ponuda\\specijalna4.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\specijalna_ponuda\\specijalna4.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "specijalna_ponuda/specijalna4.jpg",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\specijalna_ponuda\\specijalna4.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\specijalna_ponuda\\specijalna5.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\specijalna_ponuda\\specijalna5.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "specijalna_ponuda/specijalna5.jpg",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\specijalna_ponuda\\specijalna5.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\specijalna_ponuda\\specijalna6.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\specijalna_ponuda\\specijalna6.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "specijalna_ponuda/specijalna6.jpg",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\specijalna_ponuda\\specijalna6.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\torte\\torta0.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\torte\\torta0.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "torte/torta0.jpg",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\torte\\torta0.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\torte\\torta1.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\torte\\torta1.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "torte/torta1.jpg",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\torte\\torta1.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\torte\\torta2.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\torte\\torta2.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "torte/torta2.jpg",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\torte\\torta2.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\torte\\torta3.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\torte\\torta3.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "torte/torta3.jpg",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\torte\\torta3.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\torte\\torta4.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\torte\\torta4.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "torte/torta4.jpg",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\torte\\torta4.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\torte\\torta5.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\torte\\torta5.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "torte/torta5.jpg",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\torte\\torta5.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\torte\\torta6.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\torte\\torta6.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "torte/torta6.jpg",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\torte\\torta6.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\torte\\torta7.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\torte\\torta7.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "torte/torta7.jpg",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\torte\\torta7.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\torte\\torta8.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\torte\\torta8.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "torte/torta8.jpg",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\torte\\torta8.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\torte\\torta9.jpg",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\torte\\torta9.jpg",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "torte/torta9.jpg",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\torte\\torta9.jpg"
     },
     {
-      "Identity": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\videos\\videomain.mp4",
+      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\videos\\videomain.mp4",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Desktop\\ChocoShopBum\\ChocoShopBum\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\IT\\source\\repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
       "RelativePath": "videos/videomain.mp4",
       "AssetKind": "All",
