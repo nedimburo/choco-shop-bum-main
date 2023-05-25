@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\ikonice\\facebook.svg"
     },
     {
+      "Id": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\ikonice\\femaleavatar.png",
+      "PackagePath": "staticwebassets\\ikonice\\femaleavatar.png"
+    },
+    {
       "Id": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\ikonice\\glovo.png",
       "PackagePath": "staticwebassets\\ikonice\\glovo.png"
     },
@@ -55,6 +59,10 @@
     {
       "Id": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\ikonice\\logoBUM.png",
       "PackagePath": "staticwebassets\\ikonice\\logoBUM.png"
+    },
+    {
+      "Id": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\ikonice\\maleavatar.png",
+      "PackagePath": "staticwebassets\\ikonice\\maleavatar.png"
     },
     {
       "Id": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\ikonice\\menu.png",
