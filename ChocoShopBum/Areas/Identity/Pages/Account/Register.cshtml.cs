@@ -71,11 +71,7 @@ namespace ChocoShopBum.Areas.Identity.Pages.Account
         /// </summary>
         public class InputModel
         {
-            //[Required]
-            [DataType(DataType.Text)]
-            [Display(Name ="Username")]
-            public string Username { get; set; }
-
+            
             [Required]
             [DataType(DataType.Text)]
             [Display(Name ="FirstName")]
@@ -136,8 +132,7 @@ namespace ChocoShopBum.Areas.Identity.Pages.Account
                 var user = CreateUser();
 
                 user.FirstName = Input.FirstName;
-                user.LastName = Input.LastName;
-                user.UserName = Input.Username;
+                user.LastName = Input.LastName;               
                 user.Gender = Input.Gender;
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);

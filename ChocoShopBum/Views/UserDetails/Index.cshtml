@@ -7,9 +7,34 @@
         <img class="home-img" alt="Home" src="~/ikonice/home.png">
     </a>
 </div>
-<h1>Index</h1>
-<p>Email: @ViewData["Email"]</p>
-<p>Ime: @ViewData["FirstName"]</p>
-<p>Prezime: @ViewData["LastName"]</p>
-<p>Spol: @ViewData["Gender"]</p>
-<p>Datum registracije: @ViewData["RegDate"]</p>
+<div id="profile-container">
+    <h1>Vaš Profil</h1>
+    <p>Osnovni podaci o vašem profilu.</p>
+    <div id="profile-details-container">
+        <div id="avatar_holder">
+
+        </div>
+		<p>Ime: @ViewData["FirstName"]</p>
+		<p>Prezime: @ViewData["LastName"]</p>
+        <p>E-mail: @ViewData["Email"]</p>
+		<p id="gender_data">Spol: @ViewData["Gender"]</p>
+		<p>Datum registracije: @ViewData["RegDate"]</p>
+    </div>
+</div>
+<script>
+    window.addEventListener("load", updateAvatar);
+    function updateAvatar(){
+        var info = document.getElementById("gender_data").innerHTML;
+        console.log(info);
+        if (info=="Spol: Musko"){
+            document.getElementById("avatar_holder").innerHTML=`<div class="avatar-picture">
+                                                                    <img class="profile-avatar-img" src="/ikonice/maleavatar.png" alt="Male avatar"
+                                                                </div>`;
+        }
+        else{
+            document.getElementById("avatar_holder").innerHTML = `<div class="avatar-picture">
+                                                                        <img class="profile-avatar-img" src="/ikonice/femaleavatar.png" alt="fFemale avatar"
+                                                                    </div>`;
+        }
+    }
+</script>
