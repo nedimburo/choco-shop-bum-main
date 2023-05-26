@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M9jeRGLi6b8rH9GqFrxP1uf24ED2/uzel0LiRD45RS0=",
+  "Hash": "H7aEKXQva4QS/YiGsg6EET74vJA0Lqs/3CKtpNRON6M=",
   "Source": "ChocoShopBum",
   "BasePath": "_content/ChocoShopBum",
   "Mode": "Default",
@@ -1086,23 +1086,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\main.css"
-    },
-    {
-      "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\css\\site.css",
-      "SourceId": "ChocoShopBum",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
-      "BasePath": "_content/ChocoShopBum",
-      "RelativePath": "css/site.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
       "Identity": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\favicon.ico",
