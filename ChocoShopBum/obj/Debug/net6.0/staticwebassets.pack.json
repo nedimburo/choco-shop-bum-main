@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
-      "Id": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
       "Id": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

@@ -14,8 +14,6 @@
     <h1>REGISTRACIJA</h1>
     <p class="register-text">Napravite svoj korisnički račun.</p>
     <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
-        @*<label asp-for="Input.Username">Korisničko ime:</label>
-        <input asp-for="Input.Username" autocomplete="user-name" aria-required="true" /><br />*@
 
         <label asp-for="Input.Email">E-Mail:</label>
         <input asp-for="Input.Email" autocomplete="username" aria-required="true" /><br />
