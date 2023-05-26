@@ -1,0 +1,19 @@
+﻿@model Comment
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="home-holder">
+    <a asp-controller="Home" asp-action="Index">
+        <img class="home-img" alt="Home" src="~/ikonice/home.png">
+    </a>
+</div>
+
+<form method="post">
+    <h1>Komentar</h1>
+
+    <label asp-for="Content">Komentar:</label>
+    <input asp-for="Content" />
+
+    <button type="submit">Postavi komentar</button>
+    <a asp-controller="Comment" asp-action="Index">Back</a>
+</form>
