@@ -20,7 +20,12 @@ namespace ChocoShopBum.Controllers
 
         public IActionResult Narudzba()
         {
-            return View();
+            if (User.Identity.IsAuthenticated){
+                return View();
+            }
+            else {
+                return Redirect("/Identity/Account/Login");
+            }
         }
 
         public IActionResult Moreabout()

@@ -25,7 +25,14 @@ namespace ChocoShopBum.Controllers
 
         public IActionResult Create()
         {
-            return View();
+            if (User.Identity.IsAuthenticated)
+            {
+                return View();
+            }
+            else
+            {
+                return Redirect("/Identity/Account/Login");
+            }
         }
 
         // za post
