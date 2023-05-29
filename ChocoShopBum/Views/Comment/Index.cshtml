@@ -1,4 +1,7 @@
 ﻿@model IEnumerable<Comment>
+@using Microsoft.AspNetCore.Identity
+@using ChocoShopBum.Areas.Identity.Data
+@inject UserManager<ApplicationUser> UserManager
 @{
     ViewData["Title"] = "Index";
 }
@@ -16,6 +19,11 @@
         <p>@obj.UserID</p>
         <p>@obj.Content</p>
         <p>@obj.CreatedDateTime</p>
+        @if (UserManager.GetUserId(this.User) == obj.UserID)
+        {
+            <a asp-controller="Comment" asp-action="Edit" asp-route-id="@obj.CommentID">Edit</a>
+            <a asp-controller="Comment" asp-action="Delete" asp-route-id="@obj.CommentID">Remove</a>
+        }
     </div>
 }
 

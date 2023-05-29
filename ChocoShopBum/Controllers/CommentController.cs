@@ -45,5 +45,62 @@ namespace ChocoShopBum.Controllers
             _db.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        // Za edit komentara
+        public IActionResult Edit(int? id)
+        {
+            if(id==null || id == 0)
+            {
+                return NotFound();
+            }
+            var commentFromDb=_db.Comments.Find(id);
+
+            if (commentFromDb == null)
+            {
+                return NotFound();
+            }
+            return View(commentFromDb);
+        }
+
+        // za post
+        [HttpPost, ActionName("Edit")]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Comment obj)
+        {
+            obj.UserID = _userManager.GetUserId(this.User);
+            _db.Comments.Update(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        // Za brisanje komentara
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            var commentFromDb = _db.Comments.Find(id);
+
+            if (commentFromDb == null)
+            {
+                return NotFound();
+            }
+            return View(commentFromDb);
+        }
+
+        // za post
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete(Comment obj)
+        {            
+            if(obj == null)
+            {
+                return NotFound();
+            }
+            _db.Comments.Remove(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
