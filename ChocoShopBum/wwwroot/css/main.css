@@ -33,6 +33,9 @@ a{
 label{
     font-family: 'Roboto', sans-serif;
 }
+button {
+    font-family: 'Roboto', sans-serif;
+}
 /* SIDEBAR */
 .sidenav {
     height: 100%; 
@@ -913,9 +916,73 @@ label{
     font-weight: bold;
     border-radius: 3px;
 }
+/* CREATE, EDIT, REMOVE (za Komentare) */
+#comment-container {
+    width: 85vw;
+    max-width: 400px;
+    min-height: 325px;
+    height: 38vh;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 2%;
+    background-color: #ffe0b5;
+}
+#comment-container>h1{
+    padding: 5px;
+    text-align: center;
+}
+#comment-container>p{
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    margin-bottom: 15px;
+}
+#comment-container>form{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#comment-container>form>label{
+    font-size: 1.2rem;
+}
+#comment-container>form>input{
+    width: 250px;
+    height: 45px;
+    font-size: 1.1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#comment-button-holder{
+    padding-top: 10px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+#comment-button-holder>button{
+    padding: 12px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    color: white;
+    background-color: #732D0A;
+}
+#comment-button-holder>a{
+    margin-top: 5px;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    color: white;
+    background-color: #732D0A;
+    text-decoration: none;
+    text-align: center;
+}
 /* JAVASCRIPT CSS*/
 /* PONUDA LIST */
-.ponuda-list-item{
+.ponuda-list-item {
     width: 90%;
     height: 80px;
     margin: auto;
@@ -1003,6 +1070,13 @@ label{
     .avatar-picture {
         width: 216px;
         height: 216px;
+    }
+    #comment-container{
+        min-height: 280px;
+        height: 34vh;
+    }
+    #comment-container>form>input{
+        width: 200px;
     }
 }
 /* LARGE MOBILE - DEFAULT*/
@@ -1097,6 +1171,13 @@ label{
     }
     #cart-info-box{
         margin-top: 30px;
+    }
+    #comment-container{
+        min-height: 345px;
+    }
+    #comment-container > form > input {
+        width: 320px;
+        height: 60px;
     }
 }
 /* LAPTOP */
@@ -1318,6 +1399,20 @@ label{
     #cart-info-box{
         margin-top: 35px;
         font-size: 0.9rem;
+    }
+    #comment-container{
+        min-height: 345px;
+    }
+    #comment-container>form>input {
+        width: 320px;
+        height: 60px;
+    }
+    #comment-button-holder>button:hover,
+    #comment-button-holder>a:hover{
+        color: black;
+        background-color: white;
+        border-color: black;
+        transition: 300ms;
     }
 }
 /* DESKTOP */
@@ -1547,5 +1642,19 @@ label{
     #cart-info-box{
         margin-top: 25px;
         font-size: 0.9rem;
+    }
+    #comment-container{
+        min-height: 375px;
+    }
+    #comment-container>form>input {
+        width: 320px;
+        height: 60px;
+    }
+    #comment-button-holder>button:hover,
+    #comment-button-holder>a:hover{
+        color: black;
+        background-color: white;
+        border-color: black;
+        transition: 300ms;
     }
 }
