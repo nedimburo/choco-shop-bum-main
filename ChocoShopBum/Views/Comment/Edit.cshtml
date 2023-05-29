@@ -8,13 +8,20 @@
     </a>
 </div>
 
-<form method="post" asp-action="Edit">
-    <input asp-for="CommentID" hidden />
-    <h1>Edit Komentar</h1>
+<div id="comment-container">
+    <h1>Edit komentara</h1>
+    <p>Ovdje prepravite vaš komentar.</p>
+    <form method="post" asp-action="Edit">
+        <input asp-for="CommentID" hidden />
+        
+        <label asp-for="Content">Vaš komentar:</label><br />
+        <input asp-for="Content" />
 
-    <label asp-for="Content">Komentar:</label>
-    <input asp-for="Content" />
+        <div id="comment-button-holder">
+			<button type="submit">Promjeni</button>
+			<a asp-controller="Comment" asp-action="Index">Nazad</a>
+        </div>
+        
+    </form>
+</div>
 
-    <button type="submit">Edituj komentar</button>
-    <a asp-controller="Comment" asp-action="Index">Back</a>
-</form>
