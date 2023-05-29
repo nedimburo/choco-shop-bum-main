@@ -1,0 +1,20 @@
+﻿@model Comment
+@{
+    ViewData["Title"] = "Delete";
+}
+<div class="home-holder">
+    <a asp-controller="Home" asp-action="Index">
+        <img class="home-img" alt="Home" src="~/ikonice/home.png">
+    </a>
+</div>
+
+<form method="post" asp-action="Delete">
+    <input asp-for="CommentID" hidden />
+    <h1>Delete Komentar</h1>
+
+    <label asp-for="Content">Komentar:</label>
+    <input asp-for="Content" disabled />
+
+    <button type="submit">Delete komentar</button>
+    <a asp-controller="Comment" asp-action="Index">Back</a>
+</form>
