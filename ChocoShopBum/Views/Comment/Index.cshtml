@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<Comment>
+@using ChocoShopBum.Data;
 @using Microsoft.AspNetCore.Identity
 @using ChocoShopBum.Areas.Identity.Data
 @inject UserManager<ApplicationUser> UserManager
@@ -10,20 +11,29 @@
         <img class="home-img" alt="Home" src="~/ikonice/home.png">
     </a>
 </div>
-<div style="margin: 15px;">
-    <a asp-controller="Comment" asp-action="Create">Novi komentar</a>
-</div>
-@foreach(var obj in Model)
-{
-    <div style="border: 1px solid black; background-color: papayawhip; margin: 10px;">
-        <p>@obj.UserID</p>
-        <p>@obj.Content</p>
-        <p>@obj.CreatedDateTime</p>
-        @if (UserManager.GetUserId(this.User) == obj.UserID)
-        {
-            <a asp-controller="Comment" asp-action="Edit" asp-route-id="@obj.CommentID">Edit</a>
-            <a asp-controller="Comment" asp-action="Delete" asp-route-id="@obj.CommentID">Remove</a>
-        }
+
+<div id="forum-container">
+    <h1>Forum</h1>
+    <p>Mjesto za sve komentare.</p>
+    <div id="forum-comment-holder">
+		<a asp-controller="Comment" asp-action="Create">Novi komentar</a>
     </div>
-}
+    @foreach (var obj in Model)
+    {
+        <div id="comment-holder">
+            <div id="comment-content">
+				<p class="comment-content">@obj.Content</p>
+				<p class="comment-date">Datum i vrijeme: @obj.CreatedDateTime</p>
+            </div>
+            <div id="comment-buttons">
+            @if (UserManager.GetUserId(this.User) == obj.UserID)
+            {
+                <a asp-controller="Comment" asp-action="Edit" asp-route-id="@obj.CommentID">Edit</a>
+                <a asp-controller="Comment" asp-action="Delete" asp-route-id="@obj.CommentID">Remove</a>
+            }
+            </div>
+        </div>
+    }
+</div>
+
 
