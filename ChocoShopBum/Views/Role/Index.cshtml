@@ -1,0 +1,23 @@
+﻿@model IEnumerable<ChocoShopBum.Areas.Identity.Data.ApplicationUser>
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="home-holder">
+    <a asp-controller="Home" asp-action="Index">
+        <img class="home-img" alt="Home" src="~/ikonice/home.png">
+    </a>
+</div>
+<h1>Admin Panel</h1>
+@if (Model !=null && Model.Any()){
+    foreach (var user in Model)
+    {
+        <div style="margin: 10px; border: 1px solid black; background-color: wheat;">
+            <p>@user.FirstName</p>
+            <p>@user.LastName</p>
+            <p>@user.Gender</p>
+            <p>@user.Email</p>
+            <p>@user.CreatedDateTime</p>
+            <a asp-controller="Role" asp-action="Edit" asp-route-id="@user.Id">Edit</a>
+        </div>
+    }
+}
