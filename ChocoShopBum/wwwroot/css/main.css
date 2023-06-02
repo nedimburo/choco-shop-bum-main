@@ -1048,6 +1048,121 @@ button {
     text-decoration: none;
     text-align: center;
 }
+/* ADMIN PANEL */
+#admin-panel-container{
+    width: 95vw;
+    max-width: 850px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ffe0b5;
+}
+#admin-panel-container>h1{
+    padding: 5px;
+    text-align: center;
+}
+#admin-panel-container>p{
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+.admin-panel-user-container {
+    border: 2px solid black;
+    background-color: papayawhip;
+    margin: 10px;
+    display: flex;
+    border-radius: 5px;
+}
+.user-details {
+    width: 75%;
+}
+.user-details>p{
+    margin: 3px;
+    font-weight: bold;
+}
+.user-buttons {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.user-buttons>a{
+    text-decoration: none;
+    text-align: center;
+    background-color: #732D0A;
+    color: white;
+    font-weight: bold;
+    padding: 6px 4px;
+    border: 2px solid white;
+}
+/* USER EDIT */
+#user-edit-container {
+    width: 85vw;
+    max-width: 400px;
+    min-height: 395px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #ffe0b5;
+}
+#user-edit-container>h1{
+    padding: 5px;
+    text-align: center;
+}
+#user-edit-container>p{
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    margin-bottom: 15px;
+}
+#user-edit-container>form{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#user-edit-container>form>label{
+    font-size: 1.1rem;
+}
+#user-edit-container>form>input{
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#user-edit-container>form>select{
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#user-edit-button-holder {
+    padding-top: 10px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+#user-edit-button-holder>button{
+    padding: 12px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    color: white;
+    background-color: #732D0A;
+}
+#user-edit-button-holder>a{
+    margin-top: 5px;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    color: white;
+    background-color: #732D0A;
+    text-decoration: none;
+    text-align: center;
+}
 /* JAVASCRIPT CSS*/
 /* PONUDA LIST */
 .ponuda-list-item {
@@ -1145,6 +1260,9 @@ button {
     }
     #comment-container>form>input{
         width: 200px;
+    }
+    #user-edit-container{
+        min-height: 350px;
     }
 }
 /* LARGE MOBILE - DEFAULT*/
@@ -1478,11 +1596,17 @@ button {
     #comment-button-holder>button:hover,
     #comment-button-holder>a:hover,
     #forum-comment-holder>a:hover,
-    #comment-buttons>a:hover{
+    #comment-buttons>a:hover,
+    .user-buttons>a:hover,
+    #user-edit-button-holder>button:hover,
+    #user-edit-button-holder>a:hover{
         color: black;
         background-color: white;
         border-color: black;
         transition: 300ms;
+    }
+    #user-edit-container{
+        min-height: 425px;
     }
 }
 /* DESKTOP */
@@ -1723,10 +1847,16 @@ button {
         height: 60px;
     }
     #comment-button-holder>button:hover,
-    #comment-button-holder>a:hover{
+    #comment-button-holder>a:hover,
+    .user-buttons>a:hover,
+    #user-edit-button-holder>a:hover,
+    #user-edit-button-holder>button:hover{
         color: black;
         background-color: white;
         border-color: black;
         transition: 300ms;
+    }
+    #user-edit-container{
+        min-height: 450px;
     }
 }
