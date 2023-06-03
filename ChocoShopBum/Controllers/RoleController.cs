@@ -92,5 +92,70 @@ namespace ChocoShopBum.Controllers
 
             return RedirectToAction("Index");
         }
-    }
+
+		// za brisanje
+		public async Task<IActionResult> Remove(string id)
+		{
+			var userFromDb = _db.Users.Find(id);
+			IEnumerable<IdentityRole> rolesFromDb = _db.Roles;
+
+			var userRoles = await _signInManager.UserManager.GetRolesAsync(userFromDb);
+
+			var roleItems = rolesFromDb.Select(role =>
+				new SelectListItem(
+					role.Name,
+					role.Id,
+					userRoles.Any(ur => ur.Contains(role.Name)))).ToList();
+
+			if (userFromDb == null)
+			{
+				return NotFound();
+			}
+			var vm = new EditUserViewModel
+			{
+				User = userFromDb,
+				Roles = roleItems
+			};
+			return View(vm);
+		}
+
+		[HttpPost, ActionName("OnPostRemoveAsync")]
+		public async Task<IActionResult> OnPostRemoveAsync(EditUserViewModel data)
+		{
+			var userFromDb = _db.Users.Find(data.User.Id);
+			if (userFromDb == null)
+			{
+				return NotFound();
+			}
+            // brisanje uloga
+			foreach (var role in data.Roles)
+			{
+                await _signInManager.UserManager.RemoveFromRoleAsync(userFromDb, role.Text);
+			}
+            // brisanje komentara koje je napravio korisnik
+            IEnumerable<Comment> allComments = _db.Comments;
+            IList<Comment> commentsForRemoving = new List<Comment>();
+
+            foreach (var comment in allComments)
+            {
+                if (comment.UserID == userFromDb.Id)
+                {
+                    commentsForRemoving.Add(comment);
+                }
+            }
+
+            if (commentsForRemoving.Any())
+            {
+                foreach(var commentForRemove in commentsForRemoving)
+                {
+                    _db.Comments.Remove(commentForRemove);
+                }
+            }
+            // brisanje korisnika
+            _db.Users.Remove(userFromDb);
+            _db.SaveChanges();
+
+			return RedirectToAction("Index");
+		}
+	}
 }
