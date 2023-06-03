@@ -1,0 +1,47 @@
+﻿@model ChocoShopBum.Models.EditUserViewModel
+@{
+	ViewData["Title"] = "Remove";
+}
+<div class="home-holder">
+	<a asp-controller="Home" asp-action="Index">
+		<img class="home-img" alt="Home" src="~/ikonice/home.png">
+	</a>
+</div>
+<div id="user-edit-container">
+	<h1>Uklanjanje Korisnika</h1>
+	<p>Da li želite ukloniti ovog korisnika?</p>
+	<form method="post" asp-action="OnPostRemoveAsync">
+		<input asp-for="@Model.User.Id" hidden />
+
+		<label asp-for="@Model.User.FirstName">Ime:</label>
+		<input asp-for="@Model.User.FirstName" disabled /><br />
+
+		<label asp-for="@Model.User.LastName">Prezime:</label>
+		<input asp-for="@Model.User.LastName" disabled /><br />
+
+		<label asp-for="@Model.User.Email">E-Mail:</label>
+		<input asp-for="@Model.User.Email" disabled /><br />
+
+		<label asp-for="@Model.User.Gender">Spol:</label>
+		<select asp-for="@Model.User.Gender" disabled>
+			<option value=0>Muški</option>
+			<option value=1>Ženski</option>
+		</select><br />
+
+		@for (int i = 0; i < @Model.Roles.Count(); i++)
+		{
+			<div>
+				@Html.CheckBoxFor(c => @Model.Roles[i].Selected, new {disabled="disabled"})
+				@Html.HiddenFor(h => @Model.Roles[i].Value)
+
+				@Html.LabelFor(l => @Model.Roles[i].Selected, @Model.Roles[i].Text, new {@class="form-check-label"})
+				@Html.HiddenFor(h => @Model.Roles[i].Text)
+			</div>
+		}
+		<div id="user-edit-button-holder">
+			<button type="submit">Ukloni</button>
+			<a asp-controller="Role" asp-action="Index">Nazad</a>
+		</div>
+	</form>
+</div>
+
