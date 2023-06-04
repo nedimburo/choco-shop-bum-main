@@ -14,7 +14,7 @@ Where to find Package Manager Console? Follow these steps:<br />
 
 In the Package Manager Console write the command ***update-database*** which will perform the necessary migrations to the local database so that the application can
 work properly. When the migrations finish, a basic admin profile will be created also. Here is the required login information:<br />
-**Email: foo admin@admin.com bar**<br />
+**Email: ht<span> admin@admin.com **<br />
 **Password: admin1234**<br />
 This is the account which will automatically have a assigned role of Administrator and it can be used to access the Admin Panel. Admin Panel can be used
 to edit data of registered users, to remove them and it can also be used to assign an admin role to another user.<br />
@@ -31,7 +31,7 @@ Gdje pronaći Package Manager Console? Pratite ove korake:<br />
 
 U Package Manager Console unesite naredbu ***update-database*** koja će izvršiti potrebne migracije u lokalnu bazu podataka kako bi aplikacija mogla
 ispravno raditi. Kada se migracije završe, kreirat će se i osnovni admin profil. Ovdje su potrebni podaci za prijavu:<br />
-**Email: foo admin@admin.com bar**<br />
+**Email: ht<span>admin@admin.com **<br />
 **Šifra: admin1234**<br />
 Ovo je korisnički račun kojem će se automatski dodijeliti uloga Administratora i može se koristiti za pristup Admin Panel-u. administratorska ploča
 se može koristiti za uređivanje podataka i brisanje registriranih korisnika, a također se može koristiti za dodjelu administratorske uloge drugom korisniku.<br />
