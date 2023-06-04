@@ -12,28 +12,33 @@
 	<p>Panel namijenjen administratorima aplikacije.</p>
 	@if (Model != null && Model.Any())
 	{
+		var loggedInUser = User.Identity;
 		foreach (var user in Model)
 		{
-			<div class="admin-panel-user-container">
-				<div class="user-details">
-					<p>Ime: @user.FirstName</p>
-					<p>Prezime: @user.LastName</p>
-					@if (@user.Gender == 0)
-					{
-						<p>Spol: Muško</p>
-					}
-					else
-					{
-						<p>Spol: Žensko</p>
-					}
-					<p>E-Mail: @user.Email</p>
-					<p>Vrijeme registracije: @user.CreatedDateTime</p>
-				</div>
-				<div class="user-buttons">
-					<a asp-controller="Role" asp-action="Edit" asp-route-id="@user.Id">Edit</a>
-					<a asp-controller="Role" asp-action="Remove" asp-route-id="@user.Id">Remove</a>
-				</div>
-			</div>
+			if (loggedInUser.Name != user.UserName)
+			{
+				<div class="admin-panel-user-container">
+					<div class="user-details">
+						<p>Ime: @user.FirstName</p>
+						<p>Prezime: @user.LastName</p>
+						@if (@user.Gender == 0)
+						{
+							<p>Spol: Muško</p>
+						}
+						else
+						{
+							<p>Spol: Žensko</p>
+						}
+						<p>E-Mail: @user.Email</p>
+						<p>Vrijeme registracije: @user.CreatedDateTime</p>
+					</div>
+					<div class="user-buttons">
+						<a asp-controller="Role" asp-action="Edit" asp-route-id="@user.Id">Edit</a>
+						<a asp-controller="Role" asp-action="Remove" asp-route-id="@user.Id">Remove</a>
+					</div>
+				</div>	
+			}
+			
 		}
 	}
 </div>
