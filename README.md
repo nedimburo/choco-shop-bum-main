@@ -11,7 +11,7 @@ Where to find Package Manager Console? Follow these steps:<br />
 2. Find NuGet Package Manager
 3. Hover over NuGet Package Manager and two items will show up
 4. Select the Package Manager Console
-<br />
+
 In the Package Manager Console write the command ***update-database*** which will perform the necessary migrations to the local database so that the application can
 work properly. When the migrations finish, a basic admin profile will be created also. Here is the required login information:<br />
 **Email: admin@admin.com**
@@ -28,7 +28,7 @@ Gdje pronaći Package Manager Console? Pratite ove korake:<br />
 2. Pronađite NuGet Package Manager
 3. Zadržite miš iznad NuGet Package Manager i dvije stavke će se pojaviti
 4. Odaberite Package Manager Console
-<br />
+
 U Package Manager Console unesite naredbu ***update-database*** koja će izvršiti potrebne migracije u lokalnu bazu podataka kako bi aplikacija mogla
 ispravno raditi. Kada se migracije završe, kreirat će se i osnovni admin profil. Ovdje su potrebni podaci za prijavu:<br />
 **Email: admin@admin.com**
