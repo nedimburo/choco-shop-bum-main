@@ -11,8 +11,7 @@ Where to find Package Manager Console? Follow these steps:<br />
 2. Find NuGet Package Manager
 3. Hover over NuGet Package Manager and two items will show up
 4. Select the Package Manager Console
-<br />
-In the Package Manager Console write the command `update-database` which will perform the necessary migrations to the local database so that the application can
+In the Package Manager Console write the command ***update-database*** which will perform the necessary migrations to the local database so that the application can
 work properly. When the migrations finish, a basic admin profile will be created also. Here is the required login information:<br />
 **Email: admin@admin.com**
 **Password: admin1234**<br />
