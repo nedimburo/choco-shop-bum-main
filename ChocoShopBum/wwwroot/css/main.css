@@ -36,17 +36,23 @@ label{
 button {
     font-family: 'Roboto', sans-serif;
 }
+.warning-text-validation {
+    font-family: 'Roboto', sans-serif;
+    color: darkred;
+    font-size: 0.8rem;
+    text-align:center;
+}
 /* SIDEBAR */
 .sidenav {
-    height: 100%; 
-    width: 0; 
-    position: fixed; 
-    z-index: 1; 
-    top: 0; 
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
     left: 0;
-    background-color: #ffe0b5; 
-    overflow-x: hidden; 
-    padding-top: 60px; 
+    background-color: #ffe0b5;
+    overflow-x: hidden;
+    padding-top: 60px;
     transition: 0.5s;
 }
 .sidenav a {
