@@ -17,18 +17,23 @@
 
         <label asp-for="Input.Email">E-Mail:</label>
         <input asp-for="Input.Email" autocomplete="username" aria-required="true" /><br />
+        <span asp-validation-for="Input.Email" class="warning-text-validation"></span><br />
 
         <label asp-for="Input.Password">Šifra:</label>
         <input asp-for="Input.Password" autocomplete="new-password" aria-required="true" /><br />
+        <span asp-validation-for="Input.Password" class="warning-text-validation"></span><br />
 
         <label asp-for="Input.ConfirmPassword">Potvrdite šifru:</label>
         <input asp-for="Input.ConfirmPassword" autocomplete="new-password" aria-required="true" /><br />
+        <span asp-validation-for="Input.ConfirmPassword" class="warning-text-validation"></span><br />
 
         <label asp-for="Input.FirstName">Ime:</label>
         <input asp-for="Input.FirstName" autocomplete="first-name" aria-required="true" /><br />
+        <span asp-validation-for="Input.FirstName" class="warning-text-validation"></span><br />
 
         <label asp-for="Input.LastName">Prezime:</label>
         <input asp-for="Input.LastName" autocomplete="last-name" aria-required="true" /><br />
+        <span asp-validation-for="Input.LastName" class="warning-text-validation"></span><br />
 
         <label>Spol:</label>
         <select asp-for="Input.Gender">
