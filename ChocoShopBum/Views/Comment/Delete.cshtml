@@ -2,13 +2,13 @@
 @{
     ViewData["Title"] = "Delete";
 }
-<div class="home-holder">
+<div class="home-holder shadows">
     <a asp-controller="Home" asp-action="Index">
         <img class="home-img" alt="Home" src="~/ikonice/home.png">
     </a>
 </div>
-<div id="comment-container">
-	<h1>Brisanje komentara</h1>
+<div id="comment-container" class="shadows">
+	<h1 class="center">Brisanje komentara</h1>
 	<p>Da li zaista želite obrisati vaš komentar?</p>
 	<form method="post" asp-action="Delete">
 		<input asp-for="CommentID" hidden />
@@ -17,8 +17,8 @@
 		<input asp-for="Content" disabled />
 
 		<div id="comment-button-holder">
-			<button type="submit">Obriši</button>
-			<a asp-controller="Comment" asp-action="Index">Nazad</a>
+			<button type="submit" class="control-button">Obriši</button>
+			<a asp-controller="Comment" asp-action="Index" class="control-button">Nazad</a>
 		</div>
 	</form>
 </div>

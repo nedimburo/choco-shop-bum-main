@@ -2,14 +2,14 @@
 @{
     ViewData["Title"] = "Edit";
 }
-<div class="home-holder">
+<div class="home-holder shadows">
     <a asp-controller="Home" asp-action="Index">
         <img class="home-img" alt="Home" src="~/ikonice/home.png">
     </a>
 </div>
 
-<div id="comment-container">
-    <h1>Edit komentara</h1>
+<div id="comment-container" class="shadows">
+    <h1 class="center">Edit komentara</h1>
     <p>Ovdje prepravite vaš komentar.</p>
     <form method="post" asp-action="Edit">
         <input asp-for="CommentID" hidden />
@@ -18,8 +18,8 @@
         <input asp-for="Content" />
 
         <div id="comment-button-holder">
-			<button type="submit">Promjeni</button>
-			<a asp-controller="Comment" asp-action="Index">Nazad</a>
+			<button type="submit" class="control-button">Promjeni</button>
+			<a asp-controller="Comment" asp-action="Index" class="control-button">Nazad</a>
         </div>
         
     </form>

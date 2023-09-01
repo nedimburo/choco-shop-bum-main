@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -24,23 +25,33 @@ h1{
 h2{
     font-family: 'Oswald', sans-serif;
 }
-p{
-    font-family: 'Roboto', sans-serif;
-}
-a{
-    font-family: 'Roboto', sans-serif;
-}
-label{
-    font-family: 'Roboto', sans-serif;
-}
-button {
-    font-family: 'Roboto', sans-serif;
-}
 .warning-text-validation {
-    font-family: 'Roboto', sans-serif;
     color: darkred;
     font-size: 0.8rem;
     text-align:center;
+}
+.center{
+    text-align: center;
+}
+.shadows{
+    box-shadow: 2px 2px 5px black;
+}
+.control-button {
+    padding: 10px;
+    font-weight: bold;
+    margin: 15px 0px;
+    font-size: 1.1rem;
+    border: 2px solid white;
+    color: white;
+    background-color: #732D0A;
+    text-align: center;
+    text-decoration: none;
+}
+.control-button:hover{
+    color: black;
+    background-color: white;
+    border-color: black;
+    transition: 300ms;
 }
 /* SIDEBAR */
 .sidenav {
@@ -167,7 +178,6 @@ button {
     text-align: center;
     background-color: #732D0A;
     border: 1px solid white;
-    font-family: 'Roboto', sans-serif;
 }
 .fade {
     animation-name: fade;
@@ -193,7 +203,6 @@ button {
     grid-template-rows: 50% 50%;
 }
 #ponuda h2{
-    text-align: center;
     padding-bottom: 10px;
 }
 #ponuda>p{
@@ -233,9 +242,7 @@ button {
     background-color: #ffe0b5;
 }
 #narudzba h2{
-    padding-top: 15px;
-    text-align: center;
-    padding-bottom: 10px;
+    padding: 15px 0;
 }
 #narudzba-container{
     width: 90%;
@@ -304,10 +311,7 @@ button {
     text-align: center;
     align-items: center;
 }
-#partner-1{
-    flex-grow: 1;
-    flex-basis: 0;
-}
+#partner-1,
 #partner-2{
     flex-grow: 1;
     flex-basis: 0;
@@ -327,15 +331,6 @@ button {
     text-align: center;
     padding-bottom: 10px;
 }
-#naruzdba-button-holder a{
-    padding: 10px;
-    font-weight: bold;
-    text-decoration: none;
-    border: 2px solid white;
-    text-align: center;
-    background-color: #732D0A;
-    color: white;
-}
 /* O NAMA */
 #o-nama{
     width: 90%;
@@ -344,16 +339,13 @@ button {
     background-color: #ffe0b5;
 }
 #o-nama h2{
-    padding-top: 20px;
-    text-align: center;
-    padding-bottom: 10px;
+    padding: 15px 0;
 }
 #text-o-nama{
     width: 90%;
     margin: auto;
     font-style: italic;
     padding-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
 }
 #img-o-nama{
     width: 60%;
@@ -369,16 +361,6 @@ button {
     width: 80%;
     margin: auto;
 }
-#button-container a{
-    margin-bottom: 10px;
-    padding: 10px;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-    border: 2px solid white;
-    background-color: #732D0A;
-    color: white;
-}
 .o-nama-picture{
     width: 100%;
     height: 100%;
@@ -391,9 +373,7 @@ button {
     background-color: #ffe0b5;
 }
 #lokacija h2{
-    padding-top: 20px;
-    text-align: center;
-    padding-bottom: 5px;
+    padding: 15px 0;
 }
 #lokacija p{
     text-align: center;
@@ -409,7 +389,6 @@ button {
     width: 90%;
     margin: auto;
     padding: 10px 0px 0px 25px;
-    font-family: 'Roboto', sans-serif;
 }
 #lokacije-container>div{
     margin-bottom: 10px;
@@ -426,7 +405,6 @@ button {
     border-top: 10px solid white;
     padding: 10px;
     color: white;
-    font-family: 'Roboto', sans-serif;
 }
 #footer div{
     padding-bottom: 10px;
@@ -517,10 +495,6 @@ button {
     font-style: italic;
     text-align: center;
     border-bottom: 2px solid black;
-}
-#more-about-container h1,
-#more-about-container h2{
-    text-align: center;
 }
 .more-about-text{
     font-weight: bold;
@@ -627,9 +601,6 @@ button {
     border-radius: 2%;
     background-color: #ffe0b5;
 }
-#login-holder h1{
-    text-align: center;
-}
 .login-text,
 .register-text{
     text-align: center;
@@ -648,16 +619,6 @@ button {
 #register-holder>form>input{
     margin-bottom: 15px;
     padding: 2px;
-}
-#login-button,
-#register-button{
-    padding: 12px;
-    font-weight: bold;
-    margin: 15px 0px;
-    font-size: 1.2rem;
-    border: 2px solid white;
-    color: white;
-    background-color: #732D0A;
 }
 .login-info,
 .register-info{
@@ -686,9 +647,6 @@ button {
     border: 2px solid black;
     border-radius: 2%;
     background-color: #ffe0b5;
-}
-#register-holder h1{
-    text-align: center;
 }
 #register-holder select{
     padding: 2px;
@@ -826,7 +784,6 @@ button {
     background-color: green;
     color: white;
     border: 2px solid grey;
-    font-family: 'Roboto', sans-serif;
     font-size: 1.1rem;
     font-weight: bold;
     border-radius: 3px;
@@ -904,20 +861,17 @@ button {
     text-align: center;
     font-size: 1.1rem;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
 }
 #order_price{
     padding: 10px;
     font-weight: bold;
     font-size: 1.2rem;
-    font-family: 'Roboto', sans-serif;
 }
 #buy_cart{
     padding: 8px;
     background-color: green;
     color: white;
     border: 2px solid grey;
-    font-family: 'Roboto', sans-serif;
     font-size: 1.1rem;
     font-weight: bold;
     border-radius: 3px;
@@ -933,7 +887,6 @@ button {
 }
 #forum-container>h1{
     padding: 5px;
-    text-align: center;
 }
 #forum-container>p{
     text-align: center;
@@ -948,14 +901,6 @@ button {
     text-align: center;
     display: flex;
     flex-direction: column;
-}
-#forum-comment-holder>a{
-    text-decoration: none;
-    border: 2px solid white;
-    color: white;
-    background-color: #732D0A;
-    padding: 8px;
-    font-weight: bold;
 }
 #comment-holder{
     border: 2px solid black;
@@ -972,15 +917,6 @@ button {
     display: flex;
     flex-direction:column;
     justify-content: space-evenly;
-}
-#comment-buttons>a{
-    text-decoration: none;
-    text-align: center;
-    background-color: #732D0A;
-    color: white;
-    font-weight: bold;
-    padding: 6px 4px;
-    border: 2px solid white;
 }
 .comment-content{
     font-style:italic;
@@ -1035,24 +971,8 @@ button {
     display: flex;
     flex-direction: column;
 }
-#comment-button-holder>button{
-    padding: 12px;
-    font-weight: bold;
-    font-size: 1.2rem;
-    border: 2px solid white;
-    color: white;
-    background-color: #732D0A;
-}
 #comment-button-holder>a{
     margin-top: 5px;
-    padding: 12px;
-    font-weight: bold;
-    font-size: 1.2rem;
-    border: 2px solid white;
-    color: white;
-    background-color: #732D0A;
-    text-decoration: none;
-    text-align: center;
 }
 /* ADMIN PANEL */
 #admin-panel-container{
@@ -1191,7 +1111,6 @@ button {
 .ponuda-list-price{
     font-weight: bold;
     padding: 5px;
-    font-family: 'Roboto', sans-serif;
 }
 .ponuda-list-name{
     font-family: 'Acme', sans-serif;
@@ -1548,16 +1467,6 @@ button {
         width: 350px;
         height: 150px;
     }
-    #login-button:hover,
-    #register-button:hover,
-    #contact-button-container>button:hover,
-    #naruzdba-button-holder>a:hover,
-    #button-container>a:hover{
-        color: black;
-        background-color: white;
-        border-color: black;
-        transition: 300ms;
-    }
     #page-narudzba-container{
         width: 93vw;
         border-radius: 15px;
@@ -1598,18 +1507,6 @@ button {
     #comment-container>form>input {
         width: 320px;
         height: 60px;
-    }
-    #comment-button-holder>button:hover,
-    #comment-button-holder>a:hover,
-    #forum-comment-holder>a:hover,
-    #comment-buttons>a:hover,
-    .user-buttons>a:hover,
-    #user-edit-button-holder>button:hover,
-    #user-edit-button-holder>a:hover{
-        color: black;
-        background-color: white;
-        border-color: black;
-        transition: 300ms;
     }
     #user-edit-container{
         min-height: 425px;
@@ -1801,18 +1698,6 @@ button {
     #lokacija{
         max-width: 1080px;
     }
-    #login-button:hover,
-    #register-button:hover,
-    #contact-button-container>button:hover,
-    #naruzdba-button-holder>a:hover,
-    #button-container>a:hover,
-    #forum-comment-holder>a:hover,
-    #comment-buttons>a:hover{
-        color: black;
-        background-color: white;
-        border-color: black;
-        transition: 300ms;
-    }
     #page-narudzba-container{
         width: 90vw;
         max-width: 1350px;
@@ -1851,16 +1736,6 @@ button {
     #comment-container>form>input {
         width: 320px;
         height: 60px;
-    }
-    #comment-button-holder>button:hover,
-    #comment-button-holder>a:hover,
-    .user-buttons>a:hover,
-    #user-edit-button-holder>a:hover,
-    #user-edit-button-holder>button:hover{
-        color: black;
-        background-color: white;
-        border-color: black;
-        transition: 300ms;
     }
     #user-edit-container{
         min-height: 450px;

@@ -4,14 +4,14 @@
     ViewData["Title"] = "Register";
 }
 
-<div class="home-holder">
+<div class="home-holder shadows">
     <a asp-controller="Home" asp-action="Index">
         <img class="home-img" alt="Home" src="~/ikonice/home.png">
     </a>
 </div>
 
-<div id="register-holder">
-    <h1>REGISTRACIJA</h1>
+<div id="register-holder" class="shadows">
+    <h1 class="center">REGISTRACIJA</h1>
     <p class="register-text">Napravite svoj korisnički račun.</p>
     <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
 
@@ -42,7 +42,7 @@
         </select><br />
 
         <div class="register-small-container">
-            <button id="register-button" type="submit">Registruj se</button>
+            <button id="register-button" class="control-button" type="submit">Registruj se</button>
         </div>
     </form>
     <p class="register-info">Imate korisnički račun?</p>

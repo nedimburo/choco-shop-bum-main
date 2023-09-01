@@ -6,17 +6,17 @@
 @{
     ViewData["Title"] = "Index";
 }
-<div class="home-holder">
+<div class="home-holder shadows">
     <a asp-controller="Home" asp-action="Index">
         <img class="home-img" alt="Home" src="~/ikonice/home.png">
     </a>
 </div>
 
-<div id="forum-container">
-    <h1>Forum</h1>
+<div id="forum-container" class="shadows">
+    <h1 class="center">Forum</h1>
     <p>Mjesto za sve komentare.</p>
     <div id="forum-comment-holder">
-		<a asp-controller="Comment" asp-action="Create">Novi komentar</a>
+		<a asp-controller="Comment" asp-action="Create" class="control-button">Novi komentar</a>
     </div>
     @foreach (var obj in Model)
     {
@@ -28,8 +28,8 @@
             <div id="comment-buttons">
             @if (UserManager.GetUserId(this.User) == obj.UserID)
             {
-                <a asp-controller="Comment" asp-action="Edit" asp-route-id="@obj.CommentID">Edit</a>
-                <a asp-controller="Comment" asp-action="Delete" asp-route-id="@obj.CommentID">Remove</a>
+                <a asp-controller="Comment" asp-action="Edit" asp-route-id="@obj.CommentID" class="control-button">Edit</a>
+                <a asp-controller="Comment" asp-action="Delete" asp-route-id="@obj.CommentID" class="control-button">Remove</a>
             }
             </div>
         </div>

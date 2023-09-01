@@ -5,14 +5,14 @@
     ViewData["Title"] = "Log in";
 }
 
-<div class="home-holder">
+<div class="home-holder shadows">
     <a asp-controller="Home" asp-action="Index">
         <img class="home-img" alt="Home" src="~/ikonice/home.png">
     </a>
 </div>
 
-<div id="login-holder">
-    <h1>LOGIN</h1>
+<div id="login-holder" class="shadows">
+    <h1 class="center">LOGIN</h1>
     <p class="login-text">Prijavite se na svoj korisnički račun.</p>
     <form method="post">
 
@@ -25,7 +25,7 @@
         <span asp-validation-for="Input.Password" class="warning-text-validation"></span><br />
 
         <div class="login-small-container">
-            <button id="login-button" type="submit">Prijavi se</button>
+            <button id="login-button" class="control-button" type="submit">Prijavi se</button>
         </div>
     </form>
     <p class="login-info">Nemate korisnički račun?</p>
