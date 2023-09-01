@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\ChocoShopBum.csproj": {}
+    "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\ChocoShopBum.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\ChocoShopBum.csproj": {
+    "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\ChocoShopBum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\ChocoShopBum.csproj",
+        "projectUniqueName": "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\ChocoShopBum.csproj",
         "projectName": "ChocoShopBum",
-        "projectPath": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\ChocoShopBum.csproj",
-        "packagesPath": "C:\\Users\\IT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IT\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\obj\\",
+        "projectPath": "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\ChocoShopBum.csproj",
+        "packagesPath": "C:\\Users\\BuroPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\IT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BuroPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -83,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

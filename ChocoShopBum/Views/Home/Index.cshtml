@@ -52,7 +52,7 @@
     </div>
     <!-- PONUDA -->
     <div id="ponuda">
-        <h2>PONUDA</h2>
+        <h2 class="center">PONUDA</h2>
         <p>Kliknite na jednu od kategorija za listu proizvoda!</p>
         <div id="ponuda-container">
             <div id="ponuda_1" onclick="getPonudaList(2)">
@@ -78,7 +78,7 @@
     </div>
     <!-- NARUDZBA -->
     <div id="narudzba">
-        <h2>NARUDŽBA</h2>
+        <h2 class="center">NARUDŽBA</h2>
         <div id="narudzba-container">
             <p id="narudzba-text-1">Naručite bilo koju od naših poslastica sa besplatnom dostavom!</p>
             <div id="video-holder">
@@ -107,12 +107,12 @@
             </div>
         </div>
         <div id="naruzdba-button-holder">
-            <a asp-controller="Home" asp-action="Narudzba">NARUČI</a>
+        <a asp-controller="Home" asp-action="Narudzba" class="control-button">NARUČI</a>
         </div>
     </div>
     <!-- O NAMA -->
     <div id="o-nama">
-        <h2>O NAMA</h2>
+        <h2 class="center">O NAMA</h2>
         <div id="o-nama-container">
             <div id="text-o-nama">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -131,14 +131,14 @@
                 <img class="o-nama-picture" alt="O nama" src="slike/poslovnicaprimjer.jpg">
             </div>
             <div id="button-container">
-                <a asp-controller="Home" asp-action="Moreabout">Više o nama</a>
-                <a asp-controller="Comment" asp-action="Create">Napišite komentar</a>
+                <a asp-controller="Home" asp-action="Moreabout" class="control-button">Više o nama</a>
+                <a asp-controller="Comment" asp-action="Create" class="control-button">Napišite komentar</a>
             </div>
         </div>
     </div>
     <!-- LOKACIJA -->
     <div id="lokacija">
-        <h2>Gdje nas možete pronaći?</h2>
+        <h2 class="center">Gdje nas možete pronaći?</h2>
         <p>Choco shop BUM ima nekoliko poslovnica širom Bosne i Hercegovine!</p>
         <div id="google-maps-frame">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d850.4141783796774!2d17.91284270364071!3d44.19798420501593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ee23fa220fafd%3A0xd0c13a7ebb1b4ca!2sFontana!5e0!3m2!1sen!2sba!4v1679606189699!5m2!1sen!2sba" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
