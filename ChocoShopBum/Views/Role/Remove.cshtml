@@ -2,13 +2,13 @@
 @{
 	ViewData["Title"] = "Remove";
 }
-<div class="home-holder">
+<div class="home-holder shadows">
 	<a asp-controller="Home" asp-action="Index">
-		<img class="home-img" alt="Home" src="~/ikonice/home.png">
+		<img class="full-scale-img" alt="Home" src="~/ikonice/home.png">
 	</a>
 </div>
-<div id="user-edit-container">
-	<h1>Uklanjanje Korisnika</h1>
+<div id="user-edit-container" class="shadows">
+	<h1 class="center">Uklanjanje Korisnika</h1>
 	<p>Da li želite ukloniti ovog korisnika?</p>
 	<form method="post" asp-action="OnPostRemoveAsync">
 		<input asp-for="@Model.User.Id" hidden />
@@ -39,8 +39,8 @@
 			</div>
 		}
 		<div id="user-edit-button-holder">
-			<button type="submit">Ukloni</button>
-			<a asp-controller="Role" asp-action="Index">Nazad</a>
+			<button type="submit" class="control-button">Ukloni</button>
+			<a asp-controller="Role" asp-action="Index" class="control-button">Nazad</a>
 		</div>
 	</form>
 </div>

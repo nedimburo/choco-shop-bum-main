@@ -4,7 +4,7 @@
 }
 <div class="home-holder shadows">
     <a asp-controller="Home" asp-action="Index">
-        <img class="home-img" alt="Home" src="~/ikonice/home.png">
+        <img class="full-scale-img" alt="Home" src="~/ikonice/home.png">
     </a>
 </div>
 <div id="profile-container" class="shadows">
@@ -28,13 +28,13 @@
         console.log(info);
         if (info=="Spol: Musko"){
             document.getElementById("avatar_holder").innerHTML=`<div class="avatar-picture">
-                                                                    <img class="profile-avatar-img" src="/ikonice/maleavatar.png" alt="Male avatar"
+                                                                    <img class="full-scale-img" src="/ikonice/maleavatar.png" alt="Male avatar"
                                                                 </div>`;
         }
         else{
             document.getElementById("avatar_holder").innerHTML = `<div class="avatar-picture">
-                                                                        <img class="profile-avatar-img" src="/ikonice/femaleavatar.png" alt="fFemale avatar"
-                                                                    </div>`;
+                                                                        <img class="full-scale-img" src="/ikonice/femaleavatar.png" alt="fFemale avatar"
+                                                                  </div>`;
         }
     }
 </script>
