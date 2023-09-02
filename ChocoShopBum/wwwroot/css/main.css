@@ -24,6 +24,7 @@ h1{
 }
 h2{
     font-family: 'Oswald', sans-serif;
+    padding: 15px 0;
 }
 .warning-text-validation {
     color: darkred;
@@ -65,6 +66,16 @@ h2{
     border-radius: 20%;
     padding: 5px;
     margin: 10px 0px 15px 15px;
+}
+.form-control{
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 0.8rem;
+}
+.form-control:focus{
+    outline: none !important;
+    border-bottom: 2px solid #732D0A;
 }
 /* SIDEBAR */
 .sidenav {
@@ -211,9 +222,6 @@ h2{
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
 }
-#ponuda h2{
-    padding-bottom: 10px;
-}
 #ponuda>p{
     text-align: center;
     padding-bottom: 15px;
@@ -245,9 +253,6 @@ h2{
     min-height: 65vh;
     margin: auto;
     background-color: #ffe0b5;
-}
-#narudzba h2{
-    padding: 15px 0;
 }
 #narudzba-container{
     width: 90%;
@@ -332,9 +337,6 @@ h2{
     margin: auto;
     background-color: #ffe0b5;
 }
-#o-nama h2{
-    padding: 15px 0;
-}
 #text-o-nama{
     width: 90%;
     margin: auto;
@@ -361,9 +363,6 @@ h2{
     min-height: 90vh;
     margin: auto;
     background-color: #ffe0b5;
-}
-#lokacija h2{
-    padding: 15px 0;
 }
 #lokacija p{
     text-align: center;
@@ -877,11 +876,7 @@ h2{
     font-size: 1.2rem;
 }
 #comment-container>form>input{
-    width: 250px;
-    height: 45px;
-    font-size: 1.1rem;
-    border: 2px solid black;
-    border-radius: 5px;
+    width: 90%;
 }
 #comment-button-holder{
     padding-top: 10px;
@@ -961,16 +956,6 @@ h2{
 #user-edit-container>form>label{
     font-size: 1.1rem;
 }
-#user-edit-container>form>input{
-    font-size: 1rem;
-    border: 2px solid black;
-    border-radius: 5px;
-}
-#user-edit-container>form>select{
-    font-size: 1rem;
-    border: 2px solid black;
-    border-radius: 5px;
-}
 #user-edit-button-holder {
     padding-top: 10px;
     width: 50%;
@@ -1042,10 +1027,6 @@ h2{
     #lokacija{
         min-height: 78vh;
     }
-    #contact-container textarea{
-        width: 200px;
-        height: 125px;
-    }
     #footer-logo{
         width: 120px;
     }
@@ -1060,10 +1041,7 @@ h2{
     #profile-details-container > p {
         font-size: 1.4rem;
     }
-    #avatar_holder {
-        width: 216px;
-        height: 216px;
-    }
+    #avatar_holder,
     .avatar-picture {
         width: 216px;
         height: 216px;
@@ -1071,9 +1049,6 @@ h2{
     #comment-container{
         min-height: 280px;
         height: 34vh;
-    }
-    #comment-container>form>input{
-        width: 200px;
     }
     #user-edit-container{
         min-height: 350px;
@@ -1135,13 +1110,6 @@ h2{
     #register-holder select{
         padding: 3px;
     }
-    #contact-container input{
-        padding: 4px;
-    }
-    #contact-container textarea{
-        width: 320px;
-        height: 150px;
-    }
     .social-img{
         width: 45px;
         height: 45px;
@@ -1168,10 +1136,6 @@ h2{
     }
     #comment-container{
         min-height: 345px;
-    }
-    #comment-container > form > input {
-        width: 320px;
-        height: 60px;
     }
 }
 /* LAPTOP */
@@ -1335,10 +1299,6 @@ h2{
     #contact-container input {
         padding: 4px;
     }
-    #contact-container textarea{
-        width: 350px;
-        height: 150px;
-    }
     #page-narudzba-container{
         width: 93vw;
         border-radius: 15px;
@@ -1371,10 +1331,6 @@ h2{
     }
     #comment-container{
         min-height: 345px;
-    }
-    #comment-container>form>input {
-        width: 320px;
-        height: 60px;
     }
     #user-edit-container{
         min-height: 425px;
@@ -1543,13 +1499,6 @@ h2{
     .register-small-container{
         margin-bottom: 20px;
     }
-    #contact-container input{
-        padding: 6px;
-    }
-    #contact-container textarea{
-        width: 400px;
-        height: 180px;
-    }
     #pocetna,
     #ponuda,
     #narudzba,
@@ -1587,10 +1536,6 @@ h2{
     }
     #comment-container{
         min-height: 375px;
-    }
-    #comment-container>form>input {
-        width: 320px;
-        height: 60px;
     }
     #user-edit-container{
         min-height: 450px;
