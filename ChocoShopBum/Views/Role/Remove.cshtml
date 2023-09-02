@@ -14,16 +14,16 @@
 		<input asp-for="@Model.User.Id" hidden />
 
 		<label asp-for="@Model.User.FirstName">Ime:</label>
-		<input asp-for="@Model.User.FirstName" disabled /><br />
+		<input asp-for="@Model.User.FirstName" class="form-control" disabled /><br />
 
 		<label asp-for="@Model.User.LastName">Prezime:</label>
-		<input asp-for="@Model.User.LastName" disabled /><br />
+		<input asp-for="@Model.User.LastName" class="form-control" disabled /><br />
 
 		<label asp-for="@Model.User.Email">E-Mail:</label>
-		<input asp-for="@Model.User.Email" disabled /><br />
+		<input asp-for="@Model.User.Email" class="form-control" disabled /><br />
 
 		<label asp-for="@Model.User.Gender">Spol:</label>
-		<select asp-for="@Model.User.Gender" disabled>
+		<select asp-for="@Model.User.Gender" class="form-control" disabled>
 			<option value=0>Muški</option>
 			<option value=1>Ženski</option>
 		</select><br />
