@@ -2,13 +2,13 @@
 @{
     ViewData["Title"] = "Index";
 }
-<div class="home-holder">
+<div class="home-holder shadows">
     <a asp-controller="Home" asp-action="Index">
-        <img class="home-img" alt="Home" src="~/ikonice/home.png">
+		<img class="full-scale-img" alt="Home" src="~/ikonice/home.png">
     </a>
 </div>
-<div id="admin-panel-container">
-	<h1>Admin Panel</h1>
+<div id="admin-panel-container" class="shadows">
+	<h1 class="center">Admin Panel</h1>
 	<p>Panel namijenjen administratorima aplikacije.</p>
 	@if (Model != null && Model.Any())
 	{
@@ -33,8 +33,8 @@
 						<p>Vrijeme registracije: @user.CreatedDateTime</p>
 					</div>
 					<div class="user-buttons">
-						<a asp-controller="Role" asp-action="Edit" asp-route-id="@user.Id">Edit</a>
-						<a asp-controller="Role" asp-action="Remove" asp-route-id="@user.Id">Remove</a>
+						<a asp-controller="Role" asp-action="Edit" asp-route-id="@user.Id" class="control-button">Edit</a>
+						<a asp-controller="Role" asp-action="Remove" asp-route-id="@user.Id" class="control-button">Remove</a>
 					</div>
 				</div>	
 			}

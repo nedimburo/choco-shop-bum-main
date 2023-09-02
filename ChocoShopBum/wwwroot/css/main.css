@@ -53,6 +53,19 @@ h2{
     border-color: black;
     transition: 300ms;
 }
+.full-scale-img{
+    width: 100%;
+    height: 100%;
+}
+.home-holder {
+    width: 45px;
+    height: 45px;
+    background-color: #ffe0b5;
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 5px;
+    margin: 10px 0px 15px 15px;
+}
 /* SIDEBAR */
 .sidenav {
     height: 100%;
@@ -158,10 +171,6 @@ h2{
     position: relative;
     margin: auto;
 }
-.slideshow-slika{
-    width: 100%;
-    height: 100%;
-}
 .slides {
     display: none;
 }
@@ -227,10 +236,6 @@ h2{
     background-color: #111111a1;
     color: white;
 }
-.ponuda-slika{
-    width: 100%;
-    height: 100%;
-}
 #ponuda_4>p{
     font-size: 0.8rem;
 }
@@ -267,20 +272,14 @@ h2{
     display: flex;
     margin-bottom: 15px;
 }
-#rating{
-    flex-grow: 1;
-    flex-basis: 0;
-}
-#rating>p{
-    text-align: center;
-    font-weight: bold;
-    line-height: 1.6rem;
-}
+#rating,
 #reviews{
     flex-grow: 1;
     flex-basis: 0;
 }
-#reviews>p{
+#rating>p,
+#reviews>p,
+#narudzba-text-2{
     text-align: center;
     font-weight: bold;
     line-height: 1.6rem;
@@ -298,11 +297,6 @@ h2{
     font-size: 1.4rem;
     font-weight: bold;
     margin: auto;
-}
-#narudzba-text-2{
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.6rem;
 }
 #partner-container{
     width: 90%;
@@ -352,7 +346,7 @@ h2{
     height: 30%;
     margin: auto;
     margin-bottom: 10px;
-    border: 1px solid black;
+    border: 4px solid black;
     line-height: 0;
 }
 #button-container{
@@ -360,10 +354,6 @@ h2{
     flex-direction: column;
     width: 80%;
     margin: auto;
-}
-.o-nama-picture{
-    width: 100%;
-    height: 100%;
 }
 /* LOKACIJA */
 #lokacija{
@@ -432,10 +422,6 @@ h2{
 #lokacije-container>div>ul>li>u{
     font-size: 0.9rem;
 }
-.logo-bum{
-    width: 100%;
-    height: 100%;
-}
 /* MOJ PROFIL */
 #profile-container{
     width: 100vw;
@@ -475,10 +461,6 @@ h2{
 .avatar-picture {
     width: 256px;
     height: 256px;
-}
-.profile-avatar-img{
-    width: 100%;
-    height: 100%;
 }
 /* VISE O NAMA */
 #more-about-container {
@@ -524,72 +506,9 @@ h2{
     display: flex;
     flex-basis: 0;
 }
-.owner-img{
-    width: 100%;
-    height: 100%;
-}
 #more-about-logo{
     width: 120px;
     margin: 20px auto;
-}
-/* KONTAKT FORMA */
-.home-holder{
-    width: 45px;
-    height: 45px;
-    background-color: #ffe0b5;
-    border: 1px solid black;
-    border-radius: 20%;
-    padding: 5px;
-    margin: 10px 0px 15px 15px;
-}
-.home-img{
-    width: 100%;
-    height: 100%;
-}
-#contact-container{
-    width: 85vw;
-    max-width: 475px;
-    min-height: 55vh;
-    margin: auto;
-    border: 2px solid black;
-    border-radius: 2%;
-    background-color: #ffe0b5;
-}
-#contact-container>h1{
-    text-align: center;
-    padding-bottom: 5px;
-}
-#contact-container>p{
-    text-align: center;
-    font-style: italic;
-    padding-bottom: 10px;
-    border-bottom: 2px solid black;
-    margin-bottom: 15px;
-}
-#contact-container>form{
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.4rem;
-}
-#contact-button-container{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    margin: auto;
-    margin-top: 15px;
-}
-#contact-button-container>button{
-    padding: 12px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    font-size: 1.2rem;
-    border: 2px solid white;
-    background-color: #732D0A;
-    color: white;
-}
-#contact-container textarea{
-    width: 250px;
-    height: 150px;
 }
 /* LOGIN */
 #login-holder{
@@ -985,7 +904,6 @@ h2{
 }
 #admin-panel-container>h1{
     padding: 5px;
-    text-align: center;
 }
 #admin-panel-container>p{
     text-align: center;
@@ -1014,15 +932,6 @@ h2{
     flex-direction: column;
     justify-content: space-evenly;
 }
-.user-buttons>a{
-    text-decoration: none;
-    text-align: center;
-    background-color: #732D0A;
-    color: white;
-    font-weight: bold;
-    padding: 6px 4px;
-    border: 2px solid white;
-}
 /* USER EDIT */
 #user-edit-container {
     width: 85vw;
@@ -1035,7 +944,6 @@ h2{
 }
 #user-edit-container>h1{
     padding: 5px;
-    text-align: center;
 }
 #user-edit-container>p{
     text-align: center;
@@ -1069,25 +977,6 @@ h2{
     margin: auto;
     display: flex;
     flex-direction: column;
-}
-#user-edit-button-holder>button{
-    padding: 12px;
-    font-weight: bold;
-    font-size: 1.2rem;
-    border: 2px solid white;
-    color: white;
-    background-color: #732D0A;
-}
-#user-edit-button-holder>a{
-    margin-top: 5px;
-    padding: 12px;
-    font-weight: bold;
-    font-size: 1.2rem;
-    border: 2px solid white;
-    color: white;
-    background-color: #732D0A;
-    text-decoration: none;
-    text-align: center;
 }
 /* JAVASCRIPT CSS*/
 /* PONUDA LIST */
@@ -1217,10 +1106,8 @@ h2{
     .slideshow-container{
         overflow: hidden;
     }
-    #pocetna-slika{
-        height: 400px;
-    }
-    .slideshow-slika{
+    #pocetna-slika,
+    .slideshow-slika {
         height: 400px;
     }
     #ponuda-container{
@@ -1264,18 +1151,14 @@ h2{
         border-radius: 15px;
     }
     .cart{
-    width: 40px;
-    height: 40px;
+        width: 40px;
+        height: 40px;
     }
     #items_listing{
         max-width: 475px;
     }
-    #item_buy_container{
-        margin: 150px auto;
-        border: 2px solid black;
-        border-radius: 5px;
-    }
-    #shopping_cart_container{
+    #item_buy_container,
+    #shopping_cart_container {
         margin: 150px auto;
         border: 2px solid black;
         border-radius: 5px;
@@ -1392,10 +1275,8 @@ h2{
     #naruzdba-button-holder{
         width: 40%;
     }
-    #o-nama h2{
-        padding-top: 30px;
-    }
-    #lokacija h2{
+    #o-nama h2,
+    #lokacija h2 {
         padding-top: 30px;
     }
     #google-maps-frame{
@@ -1411,13 +1292,6 @@ h2{
     #button-container a{
         width: 45%;
         margin-bottom: 10px;
-        padding: 10px;
-        font-weight: bold;
-        text-decoration: none;
-        text-align: center;
-        border: 2px solid white;
-        background-color: #732D0A;
-        color: white;
     }
     #lokacija{
         min-height: 70vh;
@@ -1457,10 +1331,8 @@ h2{
         margin-bottom: 15px;
         padding: 4px;
     }
-    #register-holder select{
-        padding: 4px;
-    }
-    #contact-container input{
+    #register-holder select,
+    #contact-container input {
         padding: 4px;
     }
     #contact-container textarea{
@@ -1472,8 +1344,8 @@ h2{
         border-radius: 15px;
     }
     .cart{
-    width: 44px;
-    height: 44px;
+        width: 44px;
+        height: 44px;
     }
     #category-items-container{
         display: grid;
@@ -1487,12 +1359,8 @@ h2{
         flex-wrap: wrap;
         max-height: 475px;
     }
-    #item_buy_container{
-        margin: 150px auto;
-        border: 2px solid black;
-        border-radius: 5px;
-    }
-    #shopping_cart_container{
+    #item_buy_container,
+    #shopping_cart_container {
         margin: 150px auto;
         border: 2px solid black;
         border-radius: 5px;
@@ -1603,13 +1471,6 @@ h2{
     #button-container a{
         width: 45%;
         margin-bottom: 10px;
-        padding: 10px;
-        font-weight: bold;
-        text-decoration: none;
-        text-align: center;
-        border: 2px solid white;
-        background-color: #732D0A;
-        color: white;
     }
     #rating-review-container{
         width: 650px;
@@ -1631,10 +1492,8 @@ h2{
     #naruzdba-button-holder{
         width: 50%;
     }
-    #o-nama h2{
-        padding-top: 30px;
-    }
-    #lokacija h2{
+    #o-nama h2, 
+    #lokacija h2 {
         padding-top: 30px;
     }
     #google-maps-frame{
@@ -1704,8 +1563,8 @@ h2{
         border-radius: 15px;
     }
     .cart{
-    width: 44px;
-    height: 44px;
+        width: 44px;
+        height: 44px;
     }
     #category-items-container{
         display: grid;
@@ -1716,12 +1575,8 @@ h2{
         flex-wrap: wrap;
         max-height: 475px;
     }
-    #item_buy_container{
-        margin: 150px auto;
-        border: 2px solid black;
-        border-radius: 5px;
-    }
-    #shopping_cart_container{
+    #item_buy_container,
+    #shopping_cart_container {
         margin: 150px auto;
         border: 2px solid black;
         border-radius: 5px;
