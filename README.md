@@ -24,7 +24,7 @@ Choco shop BUM je imaginarna web stranica za narudžbu poslastica i slatkiša. S
 <br />
 Prilikom prvog učitavanja projekta, u Visual Studio pronađite **Package Manager Console**.
 Gdje pronaći Package Manager Console? Pratite ove korake:<br />
-1. Kliknite na dio "Alati"
+1. Kliknite na tab "Tools"
 2. Pronađite NuGet Package Manager
 3. Zadržite miš iznad NuGet Package Manager i dvije stavke će se pojaviti
 4. Odaberite Package Manager Console
