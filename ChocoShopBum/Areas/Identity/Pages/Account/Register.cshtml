@@ -13,7 +13,7 @@
 <div id="register-holder" class="container-style shadows">
     <h1 class="center">REGISTRACIJA</h1>
     <p class="p-subheader underlined">Napravite svoj korisnički račun.</p>
-    <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+    <form asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-global">
 
         <label asp-for="Input.Email">E-Mail:</label>
         <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" /><br />
@@ -45,9 +45,9 @@
             <button id="register-button" class="control-button" type="submit">Registruj se</button>
         </div>
     </form>
-    <p class="register-info">Imate korisnički račun?</p>
-    <div class="register-small-container">
-        <a class="register-login-button" href="/Identity/Account/Login">PRIJAVI SE</a>
+    <p class="info-login-register">Imate korisnički račun?</p>
+    <div class="center">
+        <a class="redirect-login-register" href="/Identity/Account/Login">PRIJAVI SE</a>
     </div>
 </div>
 

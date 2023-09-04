@@ -26,6 +26,9 @@ h2{
     font-family: 'Oswald', sans-serif;
     padding: 15px 0;
 }
+label{
+    font-size: 1.1rem;
+}
 .warning-text-validation {
     color: darkred;
     font-size: 0.8rem;
@@ -66,6 +69,12 @@ h2{
     border-radius: 20%;
     padding: 5px;
     margin: 10px 0px 15px 15px;
+}
+.form-global {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
 }
 .form-control{
     background: none;
@@ -166,8 +175,9 @@ h2{
     display: flex;
     flex-direction: column;
 }
-#pocetna-opis{
+#pocetna-opis {
     margin-top: 5%;
+    font-style: italic;
 }
 #pocetna>div{
     flex-grow: 1;
@@ -188,9 +198,6 @@ h2{
 #pocetna-naslov-container span{
     font-size: 2.8rem;
     color: #732D0A;
-}
-#pocetna-naslov-container>p{
-    font-style: italic;
 }
 /* SLIDESHOW */
 .slideshow-container {
@@ -244,7 +251,7 @@ h2{
     position: relative;
     text-align: center;
 }
-#ponuda-container>div>p{
+.tag{
     position: absolute;
     left: 0px;
     right: 0px;
@@ -289,9 +296,7 @@ h2{
     flex-grow: 1;
     flex-basis: 0;
 }
-#rating>p,
-#reviews>p,
-#narudzba-text-2{
+.narudzba-texts{
     text-align: center;
     font-weight: bold;
     line-height: 1.6rem;
@@ -317,8 +322,7 @@ h2{
     text-align: center;
     align-items: center;
 }
-#partner-1,
-#partner-2{
+.partners{
     flex-grow: 1;
     flex-basis: 0;
 }
@@ -346,15 +350,13 @@ h2{
 }
 #text-o-nama{
     width: 90%;
-    margin: auto;
+    margin: 10px auto;
     font-style: italic;
-    padding-bottom: 10px;
 }
 #img-o-nama{
     width: 60%;
     height: 30%;
-    margin: auto;
-    margin-bottom: 10px;
+    margin: 10px auto;
     border: 4px solid black;
     line-height: 0;
 }
@@ -389,6 +391,9 @@ h2{
     margin-bottom: 0px;
     padding-bottom: 10px;
 }
+#lokacije-container>div>ul>li>u{
+    font-size: 0.9rem;
+}
 /* FOOTER */
 #footer{
     width: 100%;
@@ -420,9 +425,6 @@ h2{
 #footer-logo{
     margin: auto;
     width: 150px;
-}
-#lokacije-container>div>ul>li>u{
-    font-size: 0.9rem;
 }
 /* MOJ PROFIL */
 #profile-container{
@@ -493,43 +495,29 @@ h2{
     width: 120px;
     margin: 20px auto;
 }
-/* LOGIN */
+/* LOGIN i REGISTER */
 #login-holder{
     width: 85vw;
     max-width: 400px;
     min-height: 45vh;
-}
-#login-holder>form,
-#register-holder>form{
-    margin-top: 15px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1rem;
 }
 #login-holder>form>input,
 #register-holder>form>input{
     margin-bottom: 15px;
     padding: 2px;
 }
-.login-info,
-.register-info{
+.info-login-register {
     text-align: center;
     font-size: 1.2rem;
     font-style: italic;
     margin-bottom: 5px;
 }
-.login-small-container,
-.register-small-container{
-    text-align: center;
-}
-.login-register-button,
-.register-login-button{
+.redirect-login-register {
     color: black;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
 }
-/* REGISTER */
 #register-holder{
     width: 85vw;
     max-width: 500px;
@@ -570,9 +558,6 @@ h2{
 #categories input{
     width: 18px;
     height: 18px;
-}
-#categories label{
-    font-size: 1.2rem;
 }
 .item-tag{
     font-style: italic;
@@ -651,10 +636,6 @@ h2{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-}
-#quantity-holder>label{
-    font-size: 1.3rem;
-    font-weight: bold;
 }
 #quantity-holder>input{
     padding: 6px;
@@ -808,16 +789,6 @@ h2{
 }
 #comment-container>h1{
     padding: 5px;
-    text-align: center;
-}
-#comment-container>form{
-    margin-top: 15px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1rem;
-}
-#comment-container>form>label{
-    font-size: 1.2rem;
 }
 #comment-container>form>input{
     width: 90%;
@@ -869,15 +840,6 @@ h2{
 #user-edit-container>h1{
     padding: 5px;
 }
-#user-edit-container>form{
-    margin-top: 15px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1rem;
-}
-#user-edit-container>form>label{
-    font-size: 1.1rem;
-}
 #user-edit-button-holder {
     padding-top: 10px;
     width: 50%;
@@ -927,12 +889,7 @@ h2{
     }
     .sidenav a {
         padding: 25px 8px 8px 6px;
-        text-decoration: none;
         font-size: 1rem;
-        color: #111;
-        display: block;
-        transition: 0.3s;
-        font-weight: bold;
     }
     #header{
         align-items: center;
@@ -1020,9 +977,7 @@ h2{
         margin: auto;
     }
     #lokacije-container{
-        width: 300px;
-        margin: auto;
-        padding: 10px 0px 0px 25px;  
+        width: 300px;  
     }
     #login-holder>form>input,
     #register-holder>form>input{
@@ -1102,20 +1057,6 @@ h2{
     }
     #ponuda-container>div{
         width: 24%;
-        border: 1px solid white;
-        position: relative;
-        text-align: center;
-    }
-    #ponuda-container>div>p{
-        position: absolute;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        padding: 10px;
-        border-top: 1px solid black;
-        font-weight: bold;
-        background-color: #111111a1;
-        color: white;
     }
     #ponuda_list_container{
         width: 90%;
@@ -1128,7 +1069,6 @@ h2{
         width: 150px;
         height: 195px;
         margin: 10px;
-        display: flex;
         flex-direction: column;
         text-align: center;
     }
@@ -1155,8 +1095,6 @@ h2{
     .partner-img{
         width: 90%;
         height: 90%;
-        border: 2px solid black;
-        border-radius: 15px;
     }
     #naruzdba-button-holder{
         width: 40%;
@@ -1169,10 +1107,7 @@ h2{
         height: 400px;
     }
     #button-container{
-        display: flex;
         flex-direction: row;
-        width: 80%;
-        margin: auto;
         justify-content: space-between;
     }
     #button-container a{
@@ -1185,7 +1120,6 @@ h2{
     #lokacije-container{
         width: 630px;
         display: flex;
-        margin: auto;
     }
     #lokacije-container>div{
         flex-grow: 1;
@@ -1232,9 +1166,6 @@ h2{
     #category-items-container{
         display: grid;
         grid-template-columns: 30% 1fr;
-    }
-    #categories label{
-        font-size: 1.05rem;
     }
     #items_listing{
         display: flex;
@@ -1300,20 +1231,6 @@ h2{
     }
     #ponuda-container>div{
         width: 24%;
-        border: 1px solid white;
-        position: relative;
-        text-align: center;
-    }
-    #ponuda-container>div>p{
-        position: absolute;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        padding: 10px;
-        border-top: 1px solid black;
-        font-weight: bold;
-        background-color: #111111a1;
-        color: white;
     }
     #ponuda_list_container{
         width: 90%;
@@ -1326,7 +1243,6 @@ h2{
         width: 150px;
         height: 195px;
         margin: 10px;
-        display: flex;
         flex-direction: column;
         text-align: center;
     }
@@ -1336,14 +1252,8 @@ h2{
         border-right: none;
         border-bottom: 1px solid black;
     }
-    #ponuda-container div:hover{
-        background-color: black;
-    }
     #button-container{
-        display: flex;
         flex-direction: row;
-        width: 80%;
-        margin: auto;
         justify-content: space-between;
     }
     #button-container a{
@@ -1364,8 +1274,6 @@ h2{
     .partner-img{
         width: 90%;
         height: 90%;
-        border: 2px solid black;
-        border-radius: 15px;
     }
     #naruzdba-button-holder{
         width: 50%;
@@ -1383,7 +1291,6 @@ h2{
     #lokacije-container{
         width: 830px;
         display: flex;
-        margin: auto;
     }
     #lokacije-container>div{
         flex-grow: 1;

@@ -11,7 +11,7 @@
 <div id="comment-container" class="container-style shadows">
     <h1 class="center">Edit komentara</h1>
     <p class="p-subheader underlined">Ovdje prepravite vaš komentar.</p>
-    <form method="post" asp-action="Edit">
+    <form method="post" asp-action="Edit" class="form-global">
         <input asp-for="CommentID" hidden />
         
         <label asp-for="Content">Vaš komentar:</label><br />

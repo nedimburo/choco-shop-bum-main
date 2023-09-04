@@ -10,7 +10,7 @@
 <div id="comment-container" class="container-style shadows">
 	<h1 class="center">Brisanje komentara</h1>
 	<p class="p-subheader underlined">Da li zaista želite obrisati vaš komentar?</p>
-	<form method="post" asp-action="Delete">
+	<form method="post" asp-action="Delete" class="form-global">
 		<input asp-for="CommentID" hidden />
 
 		<label asp-for="Content">Vaš komentar:</label>
