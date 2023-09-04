@@ -10,7 +10,7 @@
 <div id="user-edit-container" class="container-style shadows">
 	<h1 class="center">Uklanjanje Korisnika</h1>
 	<p class="p-subheader underlined">Da li želite ukloniti ovog korisnika?</p>
-	<form method="post" asp-action="OnPostRemoveAsync">
+	<form method="post" asp-action="OnPostRemoveAsync" class="form-global">
 		<input asp-for="@Model.User.Id" hidden />
 
 		<label asp-for="@Model.User.FirstName">Ime:</label>

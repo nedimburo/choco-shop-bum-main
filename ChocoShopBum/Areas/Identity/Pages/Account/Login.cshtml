@@ -14,7 +14,7 @@
 <div id="login-holder" class="container-style shadows">
     <h1 class="center">LOGIN</h1>
     <p class="p-subheader underlined">Prijavite se na svoj korisnički račun.</p>
-    <form method="post">
+    <form method="post" class="form-global">
 
         <label asp-for="Input.Email" class="form-label">E-Mail:</label>
         <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" /><br />
@@ -28,9 +28,9 @@
             <button id="login-button" class="control-button" type="submit">Prijavi se</button>
         </div>
     </form>
-    <p class="login-info">Nemate korisnički račun?</p>
-    <div class="login-small-container">
-        <a class="login-register-button" href="/Identity/Account/Register">REGISTRUJ SE</a>
+    <p class="info-login-register">Nemate korisnički račun?</p>
+    <div class="center">
+        <a class="redirect-login-register" href="/Identity/Account/Register">REGISTRUJ SE</a>
     </div>
 </div>
 
