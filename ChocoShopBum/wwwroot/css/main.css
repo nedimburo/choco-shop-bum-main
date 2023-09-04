@@ -77,6 +77,23 @@ h2{
     outline: none !important;
     border-bottom: 2px solid #732D0A;
 }
+.p-subheader {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.underlined {
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+.container-style {
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ffe0b5;
+    margin-bottom: 10px;
+}
 /* SIDEBAR */
 .sidenav {
     height: 100%;
@@ -222,12 +239,6 @@ h2{
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
 }
-#ponuda>p{
-    text-align: center;
-    padding-bottom: 15px;
-    font-weight: bold;
-    font-style: italic;
-}
 #ponuda-container>div{
     border: 1px solid white;
     position: relative;
@@ -257,10 +268,6 @@ h2{
 #narudzba-container{
     width: 90%;
     margin: auto;
-}
-#narudzba-text-1{
-    text-align: center;
-    font-style: italic;
 }
 #video-holder{
     width: 90%;
@@ -364,10 +371,6 @@ h2{
     margin: auto;
     background-color: #ffe0b5;
 }
-#lokacija p{
-    text-align: center;
-    padding-bottom: 10px;
-}
 #google-maps-frame{
     width: 85%;
     height: 300px;
@@ -426,18 +429,9 @@ h2{
     width: 100vw;
     max-width: 450px;
     min-height: 65vh;
-    margin: auto;
-    border: 2px solid black;
-    border-radius: 2%;
-    background-color: #ffe0b5;
 }
 #profile-container>h1{
     padding: 5px;
-}
-#profile-container>p{
-    padding: 2px 5px;
-    font-style: italic;
-    border-bottom: 2px solid black;
 }
 #profile-details-container{
     padding-top: 15px;
@@ -466,16 +460,6 @@ h2{
     width: 85vw;
     max-width: 750px;
     min-height: 85vh;
-    margin: auto;
-    border: 2px solid black;
-    border-radius: 2%;
-    background-color: #ffe0b5;
-}
-.more-about-subheader{
-    padding: 5px;
-    font-style: italic;
-    text-align: center;
-    border-bottom: 2px solid black;
 }
 .more-about-text{
     font-weight: bold;
@@ -514,17 +498,6 @@ h2{
     width: 85vw;
     max-width: 400px;
     min-height: 45vh;
-    margin: auto;
-    border: 2px solid black;
-    border-radius: 2%;
-    background-color: #ffe0b5;
-}
-.login-text,
-.register-text{
-    text-align: center;
-    font-style: italic;
-    padding-bottom: 10px;
-    border-bottom: 2px solid black;
 }
 #login-holder>form,
 #register-holder>form{
@@ -561,10 +534,6 @@ h2{
     width: 85vw;
     max-width: 500px;
     min-height: 65vh;
-    margin: auto;
-    border: 2px solid black;
-    border-radius: 2%;
-    background-color: #ffe0b5;
 }
 #register-holder select{
     padding: 2px;
@@ -573,11 +542,8 @@ h2{
 /* NARUDZBA PAGE */
 #page-narudzba-container{
     width: 100%;
-    border: 1px solid black;
     padding: 10px;
-    background-color: #ffe0b5;
     min-height: 80vh;
-    margin: auto;
 }
 #header-cart-container{
     display: flex;
@@ -798,20 +764,9 @@ h2{
 #forum-container {
     width: 95vw;
     max-width: 850px;
-    margin: auto;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: #ffe0b5;
 }
 #forum-container>h1{
     padding: 5px;
-}
-#forum-container>p{
-    text-align: center;
-    font-style: italic;
-    padding-bottom: 5px;
-    border-bottom: 2px solid black;
-    margin-bottom: 10px;
 }
 #forum-comment-holder{
     width: 95%;
@@ -850,21 +805,10 @@ h2{
     max-width: 400px;
     min-height: 325px;
     height: 38vh;
-    margin: auto;
-    border: 2px solid black;
-    border-radius: 2%;
-    background-color: #ffe0b5;
 }
 #comment-container>h1{
     padding: 5px;
     text-align: center;
-}
-#comment-container>p{
-    text-align: center;
-    font-style: italic;
-    padding-bottom: 10px;
-    border-bottom: 2px solid black;
-    margin-bottom: 15px;
 }
 #comment-container>form{
     margin-top: 15px;
@@ -892,20 +836,9 @@ h2{
 #admin-panel-container{
     width: 95vw;
     max-width: 850px;
-    margin: auto;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: #ffe0b5;
 }
 #admin-panel-container>h1{
     padding: 5px;
-}
-#admin-panel-container>p{
-    text-align: center;
-    font-style: italic;
-    padding-bottom: 5px;
-    border-bottom: 2px solid black;
-    margin-bottom: 10px;
 }
 .admin-panel-user-container {
     border: 2px solid black;
@@ -932,20 +865,9 @@ h2{
     width: 85vw;
     max-width: 400px;
     min-height: 395px;
-    margin: auto;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: #ffe0b5;
 }
 #user-edit-container>h1{
     padding: 5px;
-}
-#user-edit-container>p{
-    text-align: center;
-    font-style: italic;
-    padding-bottom: 10px;
-    border-bottom: 2px solid black;
-    margin-bottom: 15px;
 }
 #user-edit-container>form{
     margin-top: 15px;

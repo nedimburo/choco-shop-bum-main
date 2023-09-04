@@ -7,9 +7,9 @@
 		<img class="full-scale-img" alt="Home" src="~/ikonice/home.png">
     </a>
 </div>
-<div id="admin-panel-container" class="shadows">
+<div id="admin-panel-container" class="container-style shadows">
 	<h1 class="center">Admin Panel</h1>
-	<p>Panel namijenjen administratorima aplikacije.</p>
+	<p class="p-subheader underlined">Panel namijenjen administratorima aplikacije.</p>
 	@if (Model != null && Model.Any())
 	{
 		var loggedInUser = User.Identity;

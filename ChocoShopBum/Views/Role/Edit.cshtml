@@ -7,9 +7,9 @@
 		<img class="full-scale-img" alt="Home" src="~/ikonice/home.png">
     </a>
 </div>
-<div id="user-edit-container" class="shadows">
+<div id="user-edit-container" class="container-style shadows">
 	<h1 class="center">Edit Korisnika</h1>
-	<p>Izmjenite informacije korisnika.</p>
+	<p class="p-subheader underlined">Izmjenite informacije korisnika.</p>
 	<form method="post" asp-action="OnPostAsync">
 		<input asp-for="@Model.User.Id" hidden />
 

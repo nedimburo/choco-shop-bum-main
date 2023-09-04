@@ -7,9 +7,9 @@
 		<img class="full-scale-img" alt="Home" src="~/ikonice/home.png">
 	</a>
 </div>
-<div id="user-edit-container" class="shadows">
+<div id="user-edit-container" class="container-style shadows">
 	<h1 class="center">Uklanjanje Korisnika</h1>
-	<p>Da li želite ukloniti ovog korisnika?</p>
+	<p class="p-subheader underlined">Da li želite ukloniti ovog korisnika?</p>
 	<form method="post" asp-action="OnPostRemoveAsync">
 		<input asp-for="@Model.User.Id" hidden />
 
