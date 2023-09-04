@@ -16,17 +16,15 @@
     <p class="p-subheader underlined">Prijavite se na svoj korisnički račun.</p>
     <form method="post" class="form-global">
 
-        <label asp-for="Input.Email" class="form-label">E-Mail:</label>
+        <label asp-for="Input.Email">E-Mail:</label>
         <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" /><br />
         <span asp-validation-for="Input.Email" class="warning-text-validation"></span><br />
 
-        <label asp-for="Input.Password" class="form-label">Šifra:</label>
+        <label asp-for="Input.Password">Šifra:</label>
         <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" /><br />
         <span asp-validation-for="Input.Password" class="warning-text-validation"></span><br />
 
-        <div class="login-small-container">
-            <button id="login-button" class="control-button" type="submit">Prijavi se</button>
-        </div>
+        <button id="login-button" class="control-button" type="submit">Prijavi se</button>
     </form>
     <p class="info-login-register">Nemate korisnički račun?</p>
     <div class="center">
