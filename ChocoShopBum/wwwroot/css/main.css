@@ -842,6 +842,7 @@ label{
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+    box-shadow: 2px 2px 5px black;
 }
 .ponuda-list-img{
     width: 30%;
@@ -866,10 +867,6 @@ label{
     width: 25%;
     background-color: #e2e8f0;
     border-left: 2px dashed black;
-}
-.ponuda-list-picture {
-    width: 100%;
-    height: 100%;
 }
 @media only screen and (max-width: 260px){
     html{

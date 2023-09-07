@@ -5,7 +5,7 @@
 <!-- HEADER -->
     <div id="header">
         <div id="sidenav_container" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a id="close-nav" href="javascript:void(0)" class="closebtn">&times;</a>
             <a href="#header">POČETNA</a>
             <a href="#ponuda">PONUDA</a>
             <a href="#narudzba">NARUDŽBA</a>
@@ -14,7 +14,7 @@
             <a href="#footer">KONTAKT</a>
             <partial name="~/Views/Shared/_LoginPartial.cshtml" />
         </div>
-        <img class="menu" alt="Menu" src="~/ikonice/menu.png" onclick="openNav()">
+        <img id="open-nav" class="menu" alt="Menu" src="~/ikonice/menu.png">
         <h1>Choco shop BUM</h1>
         <img class="mini-logo" alt="Mali logo" src="~/ikonice/logoBUM.png">
     </div>
@@ -55,19 +55,19 @@
         <h2 class="center">PONUDA</h2>
         <p class="p-subheader">Kliknite na jednu od kategorija za listu proizvoda!</p>
         <div id="ponuda-container">
-            <div id="ponuda_1" onclick="getPonudaList(2)">
+            <div id="ponuda_1">
                 <img class="full-scale-img" src="pocetna_ponuda/torte1.jpg">
                 <p class="tag">Torte</p>
             </div>
-            <div id="ponuda_2" onclick="getPonudaList(1)">
+            <div id="ponuda_2">
                 <img class="full-scale-img" src="pocetna_ponuda/kolaci1.jpg">
                 <p class="tag">Kolači</p>
             </div>
-            <div id="ponuda_3" onclick="getPonudaList(3)">
+            <div id="ponuda_3">
                 <img class="full-scale-img" src="pocetna_ponuda/praline1.jpg">
                 <p class="tag">Praline</p>
             </div>
-            <div id="ponuda_4" onclick="getPonudaList(4)">
+            <div id="ponuda_4">
                 <img class="full-scale-img" src="pocetna_ponuda/specijalna1.jpg">
                 <p class="tag">Specijalna ponuda</p>
             </div>
@@ -205,4 +205,4 @@
             <img class="full-scale-img" src="ikonice/logoBUM.png" alt="Logo BUM">
         </div>
     </div>
-<script src="~/js/main.js"></script>
+<script src="~/js/mainpage.js"></script>

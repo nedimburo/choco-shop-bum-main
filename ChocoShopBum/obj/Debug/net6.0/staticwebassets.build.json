@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/qM7058OEKW8LdyRdWSk1EW5gFJc2FNVwihFDrpNAP8=",
+  "Hash": "566E2wBnXk1iu8Mre/iP0uwtvlgFiSJhETqBXD1gvps=",
   "Source": "ChocoShopBum",
   "BasePath": "_content/ChocoShopBum",
   "Mode": "Default",
@@ -1326,12 +1326,12 @@
       "OriginalItemSpec": "wwwroot\\ikonice\\menu.png"
     },
     {
-      "Identity": "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\js\\main.js",
+      "Identity": "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\js\\data.json",
       "SourceId": "ChocoShopBum",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
       "BasePath": "_content/ChocoShopBum",
-      "RelativePath": "js/main.js",
+      "RelativePath": "js/data.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1340,7 +1340,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\main.js"
+      "OriginalItemSpec": "wwwroot\\js\\data.json"
     },
     {
       "Identity": "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\js\\main2.js",
@@ -1358,6 +1358,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\main2.js"
+    },
+    {
+      "Identity": "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\js\\mainpage.js",
+      "SourceId": "ChocoShopBum",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\",
+      "BasePath": "_content/ChocoShopBum",
+      "RelativePath": "js/mainpage.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\mainpage.js"
     },
     {
       "Identity": "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\js\\site.js",
