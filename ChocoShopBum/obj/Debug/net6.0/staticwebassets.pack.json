@@ -65,12 +65,16 @@
       "PackagePath": "staticwebassets\\ikonice\\menu.png"
     },
     {
-      "Id": "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\js\\main.js",
-      "PackagePath": "staticwebassets\\js\\main.js"
+      "Id": "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\js\\data.json",
+      "PackagePath": "staticwebassets\\js\\data.json"
     },
     {
       "Id": "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\js\\main2.js",
       "PackagePath": "staticwebassets\\js\\main2.js"
+    },
+    {
+      "Id": "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\js\\mainpage.js",
+      "PackagePath": "staticwebassets\\js\\mainpage.js"
     },
     {
       "Id": "C:\\Users\\BuroPC\\Source\\Repos\\nedimburo\\choco-shop-bum-main\\ChocoShopBum\\wwwroot\\js\\site.js",

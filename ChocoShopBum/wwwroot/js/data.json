@@ -1,0 +1,126 @@
+{
+    "Kolaci":[
+        {
+            "naziv": "Tiramisu",
+            "cijena": "3"
+        },
+        {
+            "naziv": "Krempita",
+            "cijena": "2.5"
+        },
+        {
+            "naziv": "Plazma",
+            "cijena": "2.5"
+        },
+        {
+            "naziv": "Minjon",
+            "cijena": "2"
+        },
+        {
+            "naziv": "Čokoladna kocka",
+            "cijena": "3"
+        },
+        {
+            "naziv": "Voćna kocka",
+            "cijena": "3"
+        },
+        {
+            "naziv": "Banana kolač",
+            "cijena": "2.5"
+        },
+        {
+            "naziv": "Trileće",
+            "cijena": "2"
+        },
+        {
+            "naziv": "Medeni kolač",
+            "cijena": "3"
+        }
+    ],
+    "Torte":[
+        {
+            "naziv": "Noir torta",
+            "cijena": "3.5"
+        },
+        {
+            "naziv": "Borovnica torta",
+            "cijena": "3"
+        },
+        {
+            "naziv": "Cheesecake",
+            "cijena": "3"
+        },
+        {
+            "naziv": "Orange torta",
+            "cijena": "3"
+        },
+        {
+            "naziv": "Snikers torta",
+            "cijena": "3.5"
+        },
+        {
+            "naziv": "Oreo torta",
+            "cijena": "3"
+        },
+        {
+            "naziv": "Raffaello torta",
+            "cijena": "3.5"
+        },
+        {
+            "naziv": "Havana",
+            "cijena": "3.5"
+        },
+        {
+            "naziv": "Nugat",
+            "cijena": "3"
+        },
+        {
+            "naziv": "Saher",
+            "cijena": "3"
+        }
+    ],
+    "Praline":[
+        {
+            "naziv": "Čokoladne praline",
+            "cijena": "3"
+        },
+        {
+            "naziv": "Vanilija praline",
+            "cijena": "3"
+        },
+        {
+            "naziv": "Izrada po želji",
+            "cijena": "Na upit"
+        }
+    ],
+    "SpecijalnaPonuda":[
+        {
+            "naziv": "Američke krofne",
+            "cijena": "2"
+        },
+        {
+            "naziv": "Kuglice",
+            "cijena": "2.5"
+        },
+        {
+            "naziv": "Mafini",
+            "cijena": "2"
+        },
+        {
+            "naziv": "Svadbene torte",
+            "cijena": "Na upit"
+        },
+        {
+            "naziv": "Svadbena torta 1",
+            "cijena": "25"
+        },
+        {
+            "naziv": "Svadbena torta 2",
+            "cijena": "28.5"
+        },
+        {
+            "naziv": "Svadbena torta 3",
+            "cijena": "32.5"
+        }
+    ]
+}
