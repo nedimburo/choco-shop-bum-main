@@ -597,10 +597,6 @@ label{
     height: 120px;
     border: 2px solid black;
 }
-.item-img{
-    width: 100%;
-    height: 100%;
-}
 .item_details_name{
     margin: auto;
     text-align: center;
@@ -718,7 +714,7 @@ label{
     font-weight: bold;
     font-size: 1.2rem;
 }
-#buy_cart{
+#buy-cart{
     padding: 8px;
     background-color: green;
     color: white;

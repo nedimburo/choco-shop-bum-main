@@ -11,7 +11,7 @@
 <div id="page-narudzba-container" class="container-style shadows">
     <div id="header-cart-container">
         <h1>NARUDŽBA</h1>
-        <img class="cart" src="~/ikonice/cart.png" alt="Cart" onclick="previewCart()">
+        <img id="order-cart" class="cart" src="~/ikonice/cart.png" alt="Cart">
     </div>
 
     <div id="category-items-container">
@@ -45,7 +45,7 @@
     <div id="item_buy_container">
         <div id="item-header-close-container">
             <h2>Detalji o artiklu</h2>
-            <span class="close-button" onclick="closeWindow()">&times;</span>
+            <span id="close-window" class="close-button">&times;</span>
         </div>
         <div id="item_details">
         </div>
@@ -54,7 +54,7 @@
                 <label for="kolicina">Količina:</label>
                 <input type="number" min="1" max="100" id="kolicina" value="1">
             </div>
-            <button id="item-order-button" onclick="orderingItems()">Naruči</button>
+            <button id="item-order-button">Naruči</button>
         </div>
         <div id="narudzba-order-instructions">
             <p>Za narudžbu ovog artikla naozvite nas putem kontakt brojeva.</p>
@@ -66,7 +66,7 @@
     <div id="shopping_cart_container">
         <div id="cart-header-close-container">
             <h2>Vaša korpa:</h2>
-            <span class="close-button" onclick="closeCart()">&times;</span>
+            <span id="close-cart" class="close-button">&times;</span>
         </div>
         <div id="cart-info-box">
             <p>Vaša korpa je prazna. Odaberite neki artikal kako bi mogli izvršiti transakciju.</p>
@@ -77,10 +77,10 @@
             <div id="price_button_container">
                 <div id="order_price">
                 </div>
-                <button id="buy_cart" onclick="closeCart()">KUPI</button>
+                <button id="buy-cart">KUPI</button>
             </div>
         </div>
     </div>
 </div>
-<script src="~/js/main2.js"></script>
+<script src="~/js/orderpage.js"></script>
 
