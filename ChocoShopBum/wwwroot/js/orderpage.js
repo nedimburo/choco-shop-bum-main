@@ -381,3 +381,20 @@ let buyCart = document.getElementById("buy-cart");
 buyCart.addEventListener("click", () => {
     closeTargetedWindow("shopping_cart_window");
 });
+
+let option1 = document.getElementById("c_1");
+option1.addEventListener("click", () => {
+    selectSpecificCategory();
+});
+let option2 = document.getElementById("c_2");
+option2.addEventListener("click", () => {
+    selectSpecificCategory();
+});
+let option3 = document.getElementById("c_3");
+option3.addEventListener("click", () => {
+    selectSpecificCategory();
+});
+let option4 = document.getElementById("c_4");
+option4.addEventListener("click", () => {
+    selectSpecificCategory();
+});
