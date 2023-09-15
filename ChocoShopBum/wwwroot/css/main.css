@@ -121,7 +121,14 @@ label{
     padding-top: 60px;
     transition: 0.5s;
 }
-.sidenav a {
+.sidenav-item{
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: left;
+}
+.sidenav a,
+.sidenav-item{
     padding: 25px 8px 8px 15px;
     text-decoration: none;
     font-size: 0.9rem;
@@ -133,7 +140,8 @@ label{
 #sidenav_container>a:nth-child(7){
     border-bottom: 2px solid white;
 }
-.sidenav a:hover {
+.sidenav a:hover,
+.sidenav-item:hover{
     color: #f1f1f1;
     background-color: #732D0A;
     border-bottom: 1px solid white;
